@@ -5,31 +5,41 @@ kramdown:
   hard_wrap: false
 
 # Site settings
-permalink: /:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title/
+paginate: 8
+paginate_path: /blog/page/:num/
 exclude: ["node_modules", "vendor"]
 sass:
   style: compressed
 
 # Site info
-url: http://danielstrunk.me/
+url: http://danielstrunk.me
 title: Daniel Strunk web development and design
-
-# Analytics
-analytics:
-  hostname: danielstrunk.me
-  id: "UA-38448310-3"
 
 # Collections
 collections:
-	work:
-		output: true
-		permalink: /work/:title
+  work:
+    output: true
+    permalink: /work/:title/
+  reference:
+    output: true
+    permalink: /reference/:title/
 
 # Default variables
 defaults:
   - scope:
       path: ""
+      type: "posts"
     values:
-      layout: "article"
+      layout: "default"
       tags: []
       author: Daniel Strunk
+
+# gems
+gems:
+  - jekyll-github-metadata
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# GitHub
+repository: dstrunk/dstrunk.github.io
