@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: WordPress 3.6 is nice
-date: 2013-04-11 06:00:10.000000000 -04:00
 ---
 That's pretty much the tl;dr of this post: **WordPress 3.6 is nice**. Automattic really stepped up their game for this release, rolling out features that I've been hoping for since I started WordPress development. I've been playing with the beta on my local server, and I have to say I'm impressed. Most of the features in the rollout are user-experience oriented, which is something I always felt was lacking from the admin side. Here's a quick rundown of some new features that might have you jumping for joy:
 

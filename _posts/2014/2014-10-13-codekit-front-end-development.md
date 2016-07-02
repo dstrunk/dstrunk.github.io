@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: CodeKit 2 for front end development
-date: 2014-10-13 09:13:35.000000000 -04:00
 ---
 
 Back when I was first getting into front end development, I used [CodeKit](https://incident57.com/codekit/) to handle optimizing all of my assets. It was great; it compiled my Sass files to a single stylesheet, minified JavaScript, and optimized images. As I dug deeper into development, I decided to drop CodeKit in favor of new hotness: Grunt, Gulp, and all those CLI programs that handled the same things for free and with only minimal configuration. Grunt and similar tools are great because they allow for task runners that can be community submitted. Despite a full range of community-supported tasks, I found I was only running the common things: Sass compilation, minifiers, and optimizers. So while it was nice having the option of a broad range of features, I didn't really need them.

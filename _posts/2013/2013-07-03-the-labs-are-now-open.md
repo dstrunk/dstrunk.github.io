@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: The labs are now open!
-date: 2013-07-03 08:10:39.000000000 -04:00
 ---
 
 [http://labs.dstrunk.com](http://labs.dstrunk.com "Daniel Strunk labs")

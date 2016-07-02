@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Printing the web
-date: 2013-03-27 11:42:41.000000000 -04:00
 ---
 
 [http://drublic.de/blog/printing-the-web/](http://drublic.de/blog/printing-the-web/ "Printing the web")

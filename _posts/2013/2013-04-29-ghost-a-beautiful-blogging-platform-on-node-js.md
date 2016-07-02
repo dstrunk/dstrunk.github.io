@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: 'Ghost: a beautiful blogging platform on Node.JS'
-date: 2013-04-29 07:31:54.000000000 -04:00
 ---
 
 Around six months ago, [John O'Nolan](http://john.onolan.org/ "John O Nolan") published an idea: to [simplify and beautify the WordPress blogging platform](http://john.onolan.org/ghost/ "Ghost - the idea"). I loved the initial idea, and immediately signed up to receive updates via email. Then, nothing. There was hardly a whisper of any progress via [the website](http://tryghost.org/ "Try Ghost") or Twitter account. Until today.

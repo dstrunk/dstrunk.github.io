@@ -1,9 +1,8 @@
 ---
 layout: blog/show
 title: Changing CSS to Sass in Bower dependencies
-date: 2015-03-11 11:17:08.000000000 -04:00
 ---
-I'm working on an updated version of our company's online styleguide at work, and wanted to modernize it by introducing [Bower](//bower.io/) and [Gulp](//gulpjs.com) into the build process. This will make it easier to update and share with other developers as our team grows. 
+I'm working on an updated version of our company's online styleguide at work, and wanted to modernize it by introducing [Bower](//bower.io/) and [Gulp](//gulpjs.com) into the build process. This will make it easier to update and share with other developers as our team grows.
 
 Early in the process, I ran into a problem: I wanted to include [normalize.css](necolas.github.com/normalize.css/) via bower, then include that in the Sass stylesheet. The issue with this is, normalize is a CSS file. Including this file in Sass results in a CSS `@import 'normalize.css'` at compile time, which is not a best practice in most cases\*. We need the file to end with `.scss` or `.sass` to properly integrate it with our other Sass files.
 
@@ -17,31 +16,31 @@ Say you're installing normalize.css like me. If you install via bower, the file 
 
 Knowing this, let's start. You'll need to create a `.bowerrc` file to configure Bower. Add this to the file:
 
-~~~ 
+~~~
 {
     "scripts": {
         "postinstall": "./.bower-postinstall"
     }
 }
-~~~ 
+~~~
 
 Now, let's create the shell script `.bower-postinstall` referenced in the `.bowerrc`:
 
-~~~ 
+~~~
 #!/bin/sh
 
 if [ -f "bower_components/normalize.css/normalize.css" ]; then
 	mv bower_components/normalize.css/normalize.css bower_components/normalize.css/_normalize.scss
 fi
-~~~ 
+~~~
 
 The `if` statement is just for peace of mind so future bower installs don't make bower complain of `no such file or directory`. One last thing—we'll need to make sure this script is executable. In terminal, type `chmod a+x .bower-postinstall`.
 
 Now, install normalize.css through bower as usual:
 
-~~~ 
+~~~
 bower install normalize.css
-~~~ 
+~~~
 
 If everything worked out, you should be able to browse to *bower_components > normalize.css* and see `_normalize.scss` in place of the normal `normalize.css` file.
 

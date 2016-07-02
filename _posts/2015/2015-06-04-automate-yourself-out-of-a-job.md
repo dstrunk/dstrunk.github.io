@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Automate yourself out of a job
-date: 2015-06-04 16:30:52.000000000 -05:00
 ---
 Recently somebody at work came to me with a scenario:
 

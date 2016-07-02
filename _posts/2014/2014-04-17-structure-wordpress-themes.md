@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: How I structure WordPress themes
-date: 2014-04-17 16:34:37.000000000 -04:00
 ---
 
 I know what you're thinking ... "A WordPress post?! I thought this guy drank the Ruby on Rails Kool-Aid." Truth is, I never really stopped WordPress development, I was simply looking to expand my horizons a bit. I still use WordPress daily for personal blogs and work-related activites. It's good at its job, which is either as a blog or an easily extendable CMS-like solution. Anyways ... in developing my WordPress themes, I try to keep everything as modular as possible. Here's my general file structure for anything not WordPress-centric:

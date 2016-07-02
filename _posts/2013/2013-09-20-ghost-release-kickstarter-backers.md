@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Ghost release for Kickstarter backers
-date: 2013-09-20 12:22:26.000000000 -04:00
 ---
 
 So, [Ghost](https://en.ghost.org/ "Ghost") was recently released for all Kickstarter backers. Being the [huge fan](http://dstrunk.com/ghost-a-beautiful-blogging-platform-on-node-js/ "Ghost: A beautiful blogging platform on nodeJS - Daniel Strunk") I am, I immediately downloaded. I must say, I'm impressed. John O'Nolan and crew really showed out, rolling out a solid initial platform! I'm still in the process of playing around with it—installing themes and creating my own to see just what is possible with Ghost—but I'm pretty excited. I can tell a lot of care went into this product. But enough fawning, check the jump to view a semi-comprehensive review!

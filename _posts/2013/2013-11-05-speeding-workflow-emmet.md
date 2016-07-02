@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Speeding up your workflow with Emmet
-date: 2013-11-05 09:08:53.000000000 -05:00
 ---
 
 Recently, a colleague asked me to create a quick and dirty website structure for a demo taking place later that day. Here's how the conversation went:
@@ -18,7 +17,7 @@ After typing that out in Sublime Text, I pressed CTRL + e and voila! 52 lines of
 
 ## First thing's first
 
-As you might have already guessed, Emmet's syntax mimics CSS selectors. For the basics: `div#foo` translates to `<div id="foo"></div>` and `div.bar` is `<div class="bar"></div>`. Because of this, you already know how to use Emmet—you just need to learn how to tell Emmet how to structure your HTML. Refer to [Emmet's documentation](http://docs.emmet.io/ "Emmet - Documentation") to learn the ins and outs. 
+As you might have already guessed, Emmet's syntax mimics CSS selectors. For the basics: `div#foo` translates to `<div id="foo"></div>` and `div.bar` is `<div class="bar"></div>`. Because of this, you already know how to use Emmet—you just need to learn how to tell Emmet how to structure your HTML. Refer to [Emmet's documentation](http://docs.emmet.io/ "Emmet - Documentation") to learn the ins and outs.
 
 ## Cool features that I can't live without
 
@@ -32,11 +31,11 @@ Simply type `lorem` and press Emmet's hot key combination to have Emmet generate
 
 That's right, Emmet isn't just for HTML; there are a couple of handy CSS tricks as well. You can read more about the features here, but a couple of my favorites are its **vendor prefix** support, and the CSS **reflect value** action. First, the vendor prefix: if you specify something like `-bdrs`, then press the Emmet hot key combination, you'll get something like this:
 
-~~~ 
+~~~
 -webkit-border-radius: ;
 -moz-border-radius: ;
 -border-radius: ;
-~~~ 
+~~~
 
 You'll see that there are multiple cursors after the colons, allowing you to add your values to all vendors simultaneously. The **reflect value** action is a handy supplement to this vendor prefix support. Say you want to change the border radius in this newly created CSS; instead of changing each value manually, or control-clicking to have multiple cursors, you simply update one value. Then you press Command+Shift+R (it might be different on your version of Emmet), and Emmet will update the values for every vendor prefix. Personally, these two features have all but made the Sublime Text [prefixr plugin](http://wbond.net/sublime_packages/prefixr) obsolete for me.
 

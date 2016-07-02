@@ -1,10 +1,9 @@
 ---
 layout: blog/show
 title: 'Link: Logo, Bullshit and Co., Inc.'
-date: 2013-09-06 13:02:07.000000000 -04:00
 ---
 
-[http://ia.net/blog/logo-bullshit-co-inc/](http://ia.net/blog/logo-bullshit-co-inc/ "iA - Logo, Bullshit and Co., Inc.") Oh man. What a fantastic article deriding the [new Yahoo logo](http://news.yahoo.com/yahoo-unveils-logo-043439762.html "Yahoo! News - Yahoo Unveils a New Logo"). For the uninitiated, Yahoo's CEO Marissa Mayer wrote a blog post detailing how the new logo came to fruition: 
+[http://ia.net/blog/logo-bullshit-co-inc/](http://ia.net/blog/logo-bullshit-co-inc/ "iA - Logo, Bullshit and Co., Inc.") Oh man. What a fantastic article deriding the [new Yahoo logo](http://news.yahoo.com/yahoo-unveils-logo-043439762.html "Yahoo! News - Yahoo Unveils a New Logo"). For the uninitiated, Yahoo's CEO Marissa Mayer wrote a blog post detailing how the new logo came to fruition:
 
 > So, one weekend this summer, I rolled up my sleeves and dove into the trenches with our logo design team: Bob Stohrer, Marc DeBartolomeis, Russ Khaydarov, and our intern Max Ma. We spent the majority of Saturday and Sunday designing the logo from start to finish, and we had a ton of fun weighing every minute detail.
 

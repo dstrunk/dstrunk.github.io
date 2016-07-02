@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: 'Link: Simplifying chores with Grunt'
-date: 2013-08-12 04:36:04.000000000 -04:00
 ---
 
 [http://howtonode.org/simplifying-chores-with-grunt](http://howtonode.org/simplifying-chores-with-grunt "How to Node - Simplifying Chores with Grunt")

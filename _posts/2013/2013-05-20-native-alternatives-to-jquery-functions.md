@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Native alternatives to jQuery functions
-date: 2013-05-20 06:10:02.000000000 -04:00
 ---
 
 [http://www.leebrimelow.com/native-methods-jquery/](http://www.leebrimelow.com/native-methods-jquery/ "Native equivalents of jQuery functions")

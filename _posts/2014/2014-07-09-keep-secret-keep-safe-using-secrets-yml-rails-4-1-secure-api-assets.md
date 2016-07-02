@@ -2,7 +2,6 @@
 layout: blog/show
 title: 'Keep it secret, keep it safe: Using secrets.yml in Rails 4.1 to secure API
   assets'
-date: 2014-07-09 09:59:04.000000000 -04:00
 ---
 
 In the rush to learn Rails (or any framework, for that matter), one thing that might get overlooked is security. Thoughts of "security is already baked into framework x" might be the reasoning, who knows. I'm guilty of it, and I'm sure others are in the same boat. But security of basics, like keeping your API keys and secrets *actually* secret is incredibly important, not just for the integrity of your app, but for the safety of your users. It's also important if you're looking to open source your app on GitHub or the like. In the past, a Rails developer might have saved their API keys and secrets in a file above the Rails app directory. Others might have hardcoded it into the app itself (bad dev!). Still others could have used the [Figaro gem](https://github.com/laserlemon/figaro), meant to secure API keys and make deploying to Heroku with said keys easier. I opted for the Figaro route until recently. Rails 4.1 seems to take a page from Figaro's book: it comes equipped with `config/secrets.yml`. **Currently, this file is not in `.gitignore` by default, so you'll need to add it.** Afterwards, however, simply add your API keys and secrets as below:

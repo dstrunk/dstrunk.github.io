@@ -1,17 +1,16 @@
 ---
 layout: blog/show
 title: Hub for a better GitHub experience
-date: 2014-12-15 20:43:28.000000000 -05:00
 ---
 I recently installed [Hub](https://hub.github.com/), a command line wrapper for git that pairs nicely with GitHub. Hub makes it easier to fetch repositories, navigate project pages and fork repos from the command line.
 
 For Mac, installation is simple; if you have [Brew](http://brew.sh/) installed, it's as easy as typing `brew install hub` in the command line. From there, type `alias git=hub`, then test it out:
 
-~~~ 
+~~~
 git version
 => git version 1.7.9
 => hub version 1.11.0
-~~~ 
+~~~
 
 If you see anything like the above, then it works!
 
@@ -29,7 +28,7 @@ Hub makes managing GitHub through the command line a LOT simpler. Take a look at
 
 "How will this help me as an open source contributor?" you might ask. Good question! Here's an example workflow:
 
-~~~ 
+~~~
 git clone github/hub
 cd hub
 
@@ -46,6 +45,6 @@ git push YOUR_USER ds-feature
 
 # open pull request from your branch
 git pull-request
-~~~ 
+~~~
 
 That was easy! There's a lot more that Hub does, so I'd suggest reading the documentation neatly laid out at https://hub.github.com. In my opinion, Hub not only saves keystrokes, but makes understanding a typical GitHub workflow a lot easier to wrap your brain around. Try it today!

@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: 'Link: False Hustle'
-date: 2015-01-12 14:50:43.000000000 -05:00
 ---
 http://jeffarchibald.ca/false-hustle/
 

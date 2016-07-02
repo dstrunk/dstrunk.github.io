@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Happy one year anniversary!
-date: 2013-12-21 05:00:34.000000000 -05:00
 ---
 I was always something of a serial blogger in the past, creating niche sites, updating them for a month or two, then forgetting about them completely. After being an internet nomad for several years, moving from domain to domain, I finally settled on [dstrunk.com](http://dstrunk.com "Daniel Strunk") exactly one year ago—December 21st, 2012 (that's right, I *started* my blog at the [end of the world](http://en.wikipedia.org/wiki/2012_phenomenon#Mayan_references_to_b.27ak.27tun_13 "Wikipedia")). This time, instead of creating a niche site I was marginally interested in, I decided to stay true to what I enjoyed: talking about front-end development, WordPress, and the Open Source community as a whole. Talking about things that interested me proved to be the formula needed to keep up the writing habit (who knew?). Now, here we are, 52 posts later (averaging a post a week—not bad, considering my previously mentioned history with blogs), celebrating one year of writing. On this site's birthday, I'd like to do something similar to what I do on my real birthday—reflect on everything I've learned over the past year, and outline some goals to shoot for over the next year.
 
@@ -18,13 +17,13 @@ It's easy to get caught up in the Next Big Thing. Become an advocate of that Thi
 ![Old and busted? New hotness.](http://res.cloudinary.com/dstrunk/image/upload/v1414083580/tumblr_lp9ivhDS9H1ql41ypo1_500_ek8esq.gif)
 
 Especially with regards to new technologies, I've learned it's important to try your best to remain objective in the face of new hotness. Does it work for your business use-case? Use it, and ignore the hype.
- 
+
 ## Looking forward to 2014
 
 ### Changing interests
 
- In late September I wrote about [always learning](http://wp.me/p3ERzH-a1 "Always Learning: Ruby on Rails | Daniel Strunk"). I've since been tinkering with Ruby on Rails for about a month and a half, and it's going great. I've found a new love in working with the back-end of web applications, and it's something I'd love to continue to pursue. My skills in database schemas and normalization are a bit weak, not coming from a computer science background, so I'd like to focus on strengthening those areas. I've enrolled in Stanford's OpenEdX Engineering course, [Introduction to Databases](https://class.stanford.edu/courses/Engineering/db/2014_1/about), which starts at the beginning of the year. I've also picked up a couple of books related to ActiveRecord and relational database design in general. 
- 
+ In late September I wrote about [always learning](http://wp.me/p3ERzH-a1 "Always Learning: Ruby on Rails | Daniel Strunk"). I've since been tinkering with Ruby on Rails for about a month and a half, and it's going great. I've found a new love in working with the back-end of web applications, and it's something I'd love to continue to pursue. My skills in database schemas and normalization are a bit weak, not coming from a computer science background, so I'd like to focus on strengthening those areas. I've enrolled in Stanford's OpenEdX Engineering course, [Introduction to Databases](https://class.stanford.edu/courses/Engineering/db/2014_1/about), which starts at the beginning of the year. I've also picked up a couple of books related to ActiveRecord and relational database design in general.
+
 ###  A blog redesign
 
 Of course a redesign is coming! I feel like this blog still hasn't found its visual voice, so to speak, so I've begun working on a redesigned site that should show its head early next year. This will be a major theme update, and my first one since the site's initial overhaul in early June. The redesign is looking more energetic (read: not sparse), while attempting to stay true to the design language I set out with in June.

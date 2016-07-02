@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Moving around in Vim
-date: 2014-11-06 21:24:17.000000000 -05:00
 ---
 Happy Friday! Today I'll touch on a major pain point for people first starting to learn Vim: navigating file structures! Let's get started.
 
@@ -19,21 +18,21 @@ Well you've gotten the splits open, so now what? well, let's move from side to s
 
 If you want faster keystrokes, you can edit your `.vimrc` as I have. This will allow you to press `ctrl + <hjkl>`, where `h` is left, `j` is down and so on. Just like we're used to with navigating Vim typically. Here's the setup for that:
 
-~~~ 
+~~~
 " Quicker window movement
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
-~~~ 
+~~~
 
 While we're editing our `.vimrc`, let's also make it so new splits open to the right and bottom. That seems more natural.
 
-~~~ 
+~~~
 " Open new split panes to right and bottom
 set splitbelow
 set splitright
-~~~ 
+~~~
 
 ### Switching a split's position
 

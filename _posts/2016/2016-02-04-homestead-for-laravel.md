@@ -1,4 +1,5 @@
 ---
+layout: blog/show
 title: Setting up Homestead for Laravel development
 tags: [PHP]
 description: Setting up Homestead for Laravel development

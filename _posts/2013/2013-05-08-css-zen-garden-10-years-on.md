@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: CSS Zen Garden - 10 Years On
-date: 2013-05-08 05:30:47.000000000 -04:00
 ---
 
 [http://mezzoblue.com/archives/2013/05/07/10_years/](http://mezzoblue.com/archives/2013/05/07/10_years/ "CSS Zen Garden - 10 Years Old")

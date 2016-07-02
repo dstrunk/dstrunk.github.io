@@ -1,12 +1,11 @@
 ---
 layout: blog/show
 title: Sass file structure in WordPress
-date: 2013-08-01 06:30:43.000000000 -04:00
 ---
 
 There are many ways people choose to create their Sass file structure, and it's usually dependent on the environment the developer is comfortable with (Ruby,etc). Because I primarily work with WordPress, I thought it made sense to use a similar Sass file structure as is used in WordPress themes.  In my root sass folder, I only have one Sass source file, which imports all of my other files and serves as a primary entry point. Here's my file structure:
 
-~~~ 
+~~~
 - **stylesheet.scss**
 - vendor/
 - general/
@@ -26,7 +25,7 @@ There are many ways people choose to create their Sass file structure, and it's 
 	- 1200.scss
 	- 1000.scss
 	- 500.scss
-~~~ 
+~~~
 
  The folder structure is pretty self-explanitory, but here's the rundown: **Vendor** - this holds any vendor Sass files. I'm currently using [Bourbon](http://bourbon.io/ "Sass Bourbon") and [Neat](http://neat.bourbon.io/ "Bourbon Neat") to help create my scaffolding, so my file structure looks like this: - Vendor/ - Bourbon/ - Bourbon source files...
 - Neat/ - Neat source files...

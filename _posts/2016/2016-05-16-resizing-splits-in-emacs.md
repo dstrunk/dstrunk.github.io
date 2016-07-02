@@ -1,4 +1,5 @@
 ---
+layout: blog/show
 title: Resizing splits in Emacs
 tags: [emacs]
 description: Easily resize splits without your mouse

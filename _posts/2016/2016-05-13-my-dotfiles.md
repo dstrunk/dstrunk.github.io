@@ -1,4 +1,5 @@
 ---
+layout: blog/show
 title: My dotfiles
 tags: [dotfiles]
 description: Using dotfiles to maintain parity between workstations

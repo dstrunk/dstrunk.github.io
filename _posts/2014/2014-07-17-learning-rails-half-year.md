@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: 'Learning Rails: half a year in'
-date: 2014-07-17 08:30:10.000000000 -04:00
 ---
 
 Welp, if my Github contributions graph is to be trusted, I'm now sitting at a half a year of web development. For better or worse, here's what I've picked up so far.

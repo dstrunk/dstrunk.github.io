@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: New site launch
-date: 2013-02-20 05:00:49.000000000 -05:00
 ---
 
 I updated my site for 2013! In addition to a general site redesign, I've reorganized the site, featuring the portfolio more prominently. Other site features:

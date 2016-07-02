@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: 'Link: 80,000 Plaintext Passwords: An Open Source Love Story in Three Acts'
-date: 2014-11-03 21:38:36.000000000 -05:00
 ---
 > [80,000 Plaintext Passwords: An Open Source Love Story in Three Acts](http://www.confreaks.com/videos/4183-rmr2014-80-000-plaintext-passwords-an-open-source-love-story-in-three-acts)
 

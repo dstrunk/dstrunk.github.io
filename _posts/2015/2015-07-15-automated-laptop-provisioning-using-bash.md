@@ -1,9 +1,8 @@
 ---
 layout: blog/show
 title: Automated laptop provisioning using bash
-date: 2015-07-15 16:30:52.000000000 -05:00
 ---
-Over the weekend, I decided to take a page out of [thoughtbot's][thoughtbot] playbook and create a laptop script for provisioning a new development machine. [Their script][tb-laptop] is a shell app that installs common utilities for web development, including [homebrew][brew], [rbenv][rbenv], [git][git], [postgres][postgres], and [redis][redis], among others. I love the idea of [automating all of the things][automate-job], so I decided to piggyback onto their idea and create a laptop script of my own. 
+Over the weekend, I decided to take a page out of [thoughtbot's][thoughtbot] playbook and create a laptop script for provisioning a new development machine. [Their script][tb-laptop] is a shell app that installs common utilities for web development, including [homebrew][brew], [rbenv][rbenv], [git][git], [postgres][postgres], and [redis][redis], among others. I love the idea of [automating all of the things][automate-job], so I decided to piggyback onto their idea and create a laptop script of my own.
 
 [thoughtbot]: //thoughtbot.com
 [tb-laptop]: //github.com/thoughtbot/laptop

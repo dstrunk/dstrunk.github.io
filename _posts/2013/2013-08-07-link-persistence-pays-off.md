@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: 'Link: Persistence Pays Off'
-date: 2013-08-07 13:39:47.000000000 -04:00
 ---
 
 [http://stemmings.com/persistence-pays-off/](http://stemmings.com/persistence-pays-off/ "Stemmings - Persistence Pays Off")

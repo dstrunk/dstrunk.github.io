@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Bedrock for modern WordPress deployment
-date: 2015-02-12 10:11:54.000000000 -05:00
 ---
 I haven't worked with WordPress in quite a while. After working with Rails for the last year, I grew to dislike my WordPress deployment process—it was nonstandard, hard to manage separate instances, and perhaps worst of all, didn't utilize a VCS to the best of its ability.
 

@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: 'Link: WordCamp San Francisco 2013'
-date: 2013-07-29 06:09:18.000000000 -04:00
 ---
 
 [http://wordpress.tv/2013/07/28/mark-jaquith-confident-commits-delightful-deploys-2/](http://wordpress.tv/2013/07/28/mark-jaquith-confident-commits-delightful-deploys-2/ "Mark Jaquith: Confident Commits, Delightful Deploys")

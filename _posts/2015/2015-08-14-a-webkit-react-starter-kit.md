@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: A webkit React starter kit
-date: 2015-08-14
 ---
 Over the last couple of days, I've been prototyping a web application that I've
 had an idea for ever since jumping into Rails. It was on the backburner for a
@@ -39,7 +38,7 @@ npm install
 ```
 
 From there, you can simply run `npm run start`. This command (seen in our
-`package.json` file) 
+`package.json` file)
 
 - starts an `http-server` running our local directory on port `8080`
 - starts `webpack-dev-server` on port `8090` which serves the

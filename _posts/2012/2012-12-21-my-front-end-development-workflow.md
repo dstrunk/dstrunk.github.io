@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: My front-end development workflow
-date: 2012-12-21 05:00:02.000000000 -05:00
 ---
 
 Throughout 2012 I've been focusing on streamlining my workflow (read: nerding out on all the great tools out there). Previous work already benefited from learning CSS preprocessors such as SASS and Less, and but I finally feel like I'm at a point where everything is working for me.  Here's my setup:

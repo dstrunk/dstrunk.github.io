@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: 'Link: WordPress deployment with Capistrano'
-date: 2013-10-24 06:30:47.000000000 -04:00
 ---
 
 This is an interesting article written by a WordPress developer that decided to use Capistrano for deploying his site. For the uninitiated, Capistrano is primarily used by Ruby or Ruby on Rails developers to manage deployment to various development environments (local, staging and production). This article spoke to me as somebody that usually only maintains a local and production environment. Ideally, a staging environment that mimics *exactly* the production environment is best, as you get to test deployment and production configurations not possible on your local machine. Check out the link below to hear what the author has to say:
@@ -17,5 +16,3 @@ Hit these links below (by Automattic developer [Konstantin Kovshenin](http://the
 And (one more, I promise!) if you're interested in Capistrano straight from the source, check out their website:
 
 - [http://capistranorb.com/](http://capistranorb.com/)
-
-

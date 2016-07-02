@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Regex Tuesday
-date: 2013-05-28 10:44:03.000000000 -04:00
 ---
 
 [http://callumacrae.github.io/regex-tuesday/](http://callumacrae.github.io/regex-tuesday/ "RegEx Tuesday")

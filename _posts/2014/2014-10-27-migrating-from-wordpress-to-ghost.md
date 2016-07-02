@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Migrating from WordPress to Ghost
-date: 2014-10-27 08:30:58.000000000 -04:00
 ---
 I've been on shared hosting for the better part of 10 years now. My first servers were on [1and1](http://www.1and1.com/), and more recently, [Dreamhost](http://www.dreamhost.com/). To their credit, both hosting providers did their jobs admirably, making it easy for me to setup and host WordPress sites with ease. However, their shortcomings revealed themselves as I began wanting to serve anything other than a PHP-based stack. Rails applications were possible, but tricky to setup. Ruby versions were out of date, with no way to update. Node apps were a no-go (unless you upgraded to their more expensive VPS services).
 

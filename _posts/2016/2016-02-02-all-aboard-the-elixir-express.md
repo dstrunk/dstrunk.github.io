@@ -1,4 +1,5 @@
 ---
+layout: blog/show
 title: All Aboard the Elixir Express
 tags: [Elixir]
 description: A good conference talk on Elixir, featuring @chris_mccord

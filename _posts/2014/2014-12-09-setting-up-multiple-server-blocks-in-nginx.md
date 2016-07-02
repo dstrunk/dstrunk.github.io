@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Setting up multiple server blocks in nginx
-date: 2014-12-09 21:43:01.000000000 -05:00
 ---
 One of the good (and bad) things about moving from shared hosting to a VPS is that I have full control over server settings. It might feel a little intimidating, but it's a much more rewarding experience when everything is working properly.
 
@@ -11,7 +10,7 @@ Today, I decided to set up a Jekyll blog for another site I'm cooking up. Not wa
 
 Server blocks are pretty easy to understand once you get used to the syntax; here's an example of what one looks like:
 
-~~~ 
+~~~
 server {
         listen 80 default_server;
 
@@ -29,15 +28,15 @@ server {
                 # include /etc/nginx/naxsi.rules
         }
 }
-~~~ 
+~~~
 
 This file can be called anything; for our purposes, we'll call it `example-site.com`. Typical nginx installs expect this file to be located in `/etc/nginx/sites-available/`. From there, you'll create a symbolic link to `/etc/nginx/sites-enabled/` to make the server block active:
 
-~~~ 
+~~~
 ln -s /etc/nginx/sites-available/example-site.com /etc/nginx/sites-enabled/
-~~~ 
+~~~
 
-You don't *need* to understand everything that's going on, I'll just focus on the relevant parts. 
+You don't *need* to understand everything that's going on, I'll just focus on the relevant parts.
 
 * First up is the `listen` line. `listen 80 default_server`, does pretty much what you might expect: Listen on port 80 for incoming connections, and let the server know that this is the default configuration. When having two server blocks, note that only one of these blocks can have the `default_server` part.
 
@@ -58,7 +57,7 @@ Now that your pseudo sites are set up, let's move to the server blocks to make s
 
 Under `/etc/nginx/sites-available`, create a new file called `example.com`. In this file, paste the following:
 
-~~~ 
+~~~
 server {
         listen 80 default_server;
 
@@ -67,19 +66,19 @@ server {
 
         server_name example.com;
 }
-~~~ 
+~~~
 
 Save your file, and create a symbolic link of this file to your `/etc/nginx/sites-enabled/` directory:
 
-~~~ 
+~~~
 ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
-~~~ 
+~~~
 
 #### Test.com block
 
 Under `/etc/nginx/sites-available`, create another new file called `test.com`. In this file, paste the following:
 
-~~~ 
+~~~
 server {
         listen 80;
 
@@ -88,13 +87,13 @@ server {
 
         server_name test.com;
 }
-~~~ 
+~~~
 
 Save your file, and create a symbolic link of this file to your `/etc/nginx/sites-enabled/` directory:
 
-~~~ 
+~~~
 ln -s /etc/nginx/sites-available/test.com /etc/nginx/sites-enabled/
-~~~ 
+~~~
 
 ### Testing our config and troubleshooting
 
@@ -102,10 +101,10 @@ Now that we're all set up, run `service nginx restart` to make sure Nginx picks 
 
 Let's switch to our local computer now. We obviously don't own the **example.com** and **test.com** domains, so we'll need to be clever about how we test our server blocks. That's pretty simple by editing our `/private/etc/hosts` file (assuming we're on a linux-based computer). Open up the file in the editor of your choice and add these two lines (replace `your.server.ip` with your server's IP address):
 
-~~~ 
+~~~
 your.server.ip example.com
 your.server.ip test.com
-~~~ 
+~~~
 
 Save the file, then navigate to **example.com** in your browser. You should see **Example.com works!**
 

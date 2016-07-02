@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Github dotfiles
-date: 2013-01-06 05:00:39.000000000 -05:00
 ---
 
 I work across a couple of computers for development; a Mac Pro at work, and a Macbook Air at home. For the most part, I've kept my development environments similar, but I recently ran into a problem where my work computer died and I needed to transfer everything to a new Mac Pro. Enter [GitHub dotfiles](http://dotfiles.github.com/).

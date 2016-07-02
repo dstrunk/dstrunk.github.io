@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Stylus - long live the king
-date: 2013-03-19 12:15:27.000000000 -04:00
 ---
 
 ## Once upon a time...

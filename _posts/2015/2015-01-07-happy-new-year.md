@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Happy new year!
-date: 2015-01-07 10:47:52.000000000 -05:00
 ---
 Hey everyone! It's a little late, but Happy New Year. Nothing too technical in this post, but I'd like to go over some of my goals for the new year.
 

@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: 'Link: Free JavaScript Books'
-date: 2013-06-10 07:47:42.000000000 -04:00
 ---
 
 [http://jsbooks.revolunet.com/](http://jsbooks.revolunet.com/ "JSBooks")

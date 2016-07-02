@@ -1,7 +1,6 @@
 ---
 layout: blog/show
 title: Replace conditional with polymorphism in WordPress themes and Advanced Custom Fields
-date: 2015-04-29 10:30:20.000000000 -04:00
 ---
 
 I haven't blogged in a while, and there's a reason for that: I'm working on combining my portfolio and blog into one site over at [danielstrunk.me][danielstrunk]. Recently, however, I was working on a WordPress layout, and built out something that could help others in my situation... and I couldn't wait to publish it on the new platform!
@@ -32,7 +31,7 @@ With ACF's flexible content, I defined a series of layouts for a portfolio. The 
       <?php get_template_part('templates/portfolio/quote'); ?>
     <?php endif; ?>
 <?php endwhile; endif; ?>
-~~~ 
+~~~
 
 Look at all that duplication! There has to be a better way. There's repetition galore, and if I add another flexible content section on the backend, I'd have to add yet another conditional to my layout in addition to a new template. We developers are a lazy bunch, so I knew there was a better way. And there is: through [polymorphism][wiki], we can define a generic function and have it Just Work&trade; with any number of new layouts.
 
@@ -48,11 +47,11 @@ function parameterize($string, $sep = '-') {
   $parameterized_string = preg_replace("/[^a-z0-9\-]+/", $sep, $string);
     $parameterized_string = preg_replace("/$sep{2,}/", $sep, $parameterized_string);
     $parameterized_string = preg_replace("/^$sep|$sep$/", '', $parameterized_string);
-    
+
     return strtolower($parameterized_string);
 }
 ...
-~~~ 
+~~~
 
 I place this function in `functions.php`, or wherever you need to define your helpers. This function allows me to take any string and return a dash-separated version of said string, with all spaces and special characters removed (`aren't regular expressions fun?!` turns into `arent-regular-expressions-fun`).
 
@@ -63,7 +62,7 @@ From here, I revisited my conditional-heavy layout:
   <?php $layout = parameterize(get_row_layout()); ?>
     <?php get_template_part('templates/portfolio/' . $layout); ?>
 <?php endwhile; endif; ?>
-~~~ 
+~~~
 
 **MUCH** better. The only thing I have to worry about now is making sure the flexible content I've defined has the same (parameterized) name as my template partial. This makes it easy to add new flexible content areas, and ensures my template partials are named in a logical manner.
 
