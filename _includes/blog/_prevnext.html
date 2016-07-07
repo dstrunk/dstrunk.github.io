@@ -1,0 +1,19 @@
+    <div class="pagination">
+      {% if page.previous.url %}
+      <div class="pagination__link">
+        <a class="pagination__link--previous"
+          href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">
+          &larr; {{ page.previous.title }}
+        </a>
+      </div>
+      {% endif %}
+
+      {% if page.next.url %}
+      <div class="pagination__link">
+        <a class="pagination__link--next"
+           href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">
+          {{ page.next.title }} &rarr;
+        </a>
+      </div>
+      {% endif %}
+    </div>

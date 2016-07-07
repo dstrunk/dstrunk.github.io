@@ -1,0 +1,18 @@
+{% include header.html %}
+
+<main{% if page.slug %} class="{{ page.slug }}"{% elsif page.title %} class="{{
+page.title | slugify }}"{% endif %} role="main">
+  <div class="single-column">
+    {% include blog/_postmeta.html target=page %}
+
+    {{ content }}
+
+    {% include blog/_prevnext.html %}
+    {% include comments.html %}
+  </div>
+</main>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+{% include footer.html %}

@@ -1,0 +1,47 @@
+{% include header.html %}
+
+<main{% if page.slug %} class="{{ page.slug }}"{% elsif page.title %} class="{{ page.title | slugify }}"{% endif %} role="main">
+
+	<div class="single-column blog-index">
+    <ul class="post__list">
+      {% for post in paginator.posts %}
+        <li class="post__list--item">
+
+          {% include blog/_postmeta.html target=post %}
+
+          <p class="post__excerpt">
+          {{ post.content | strip_html | truncatewords: 50 }}
+          </p>
+
+          <a class="post__more-link" href="{{ post.url }}">Read more</a>
+
+        </li>
+      {% endfor %}
+    </ul>
+
+    {% if paginator.total_pages > 1 %}
+      <div class="pagination">
+        {% if paginator.next_page %}
+        <div class="pagination__link">
+          <a class="pagination__link--previous"
+             href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+            &larr; Previous page
+          </a>
+        </div>
+        {% endif %}
+
+        {% if paginator.previous_page %}
+        <div class="pagination__link">
+          <a class="pagination__link--next"
+             href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+            Next page &rarr;
+          </a>
+        </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+  
+</main>
+
+{% include footer.html %}
