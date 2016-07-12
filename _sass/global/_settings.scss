@@ -1,0 +1,57 @@
+/// Settings
+///
+/// Global maps and variables
+///
+/// Some links that might help with naming conventions,
+/// or ideas surrounding variable reuse in sass.
+///
+/// - Naming Colors: https://robots.thoughtbot.com/naming-colors
+$dodger-blue:  #2c9ee4;
+$crimson:      #ed3e44;
+$niagara:      #2fb99b;
+$golden-dream: #ff931e;
+$fuscous-grey: #3d3e44;
+$link-water:   #b7bdc5;
+
+$brand-primary:    $dodger-blue  !default;
+$brand-success:    $niagara      !default;
+$brand-info:       $dodger-blue  !default;
+$brand-warning:    $golden-dream !default;
+$brand-danger:     $crimson      !default;
+
+
+/// Scaffolding
+///
+/// Settings for global styles
+$body-bg:            lighten($link-water, 20%) !default;
+$header-color:       $crimson !default;
+$text-color:         $fuscous-grey  !default;
+$link-color:         $brand-primary !default;
+$link-hover-color:   darken($link-color, 15%) !default;
+$link-active-color:  lighten($link-color, 10%) !default;
+$link-visited-color: $link-color !default;
+$link-focus-color:   lighten($link-color, 20%) !default;
+
+
+/// Typography
+///
+///
+$font-family-sans-serif: 'freight-sans-pro', sans-serif !default;
+$font-family-serif:      Georgia, 'Times New Roman', Times, serif !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, 'Courier New', monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+$font-size-base:         16px !default;
+$font-size-large:        rem(ceil(($font-size-base * 1.25))) !default;
+$font-size-small:        rem(ceil(($font-size-base * .85))) !default;
+
+$font-size-h1:           rem(floor(($font-size-base * 2.6))) !default;
+$font-size-h2:           rem(floor(($font-size-base * 2.15))) !default;
+$font-size-h3:           rem(ceil(($font-size-base * 1.7))) !default;
+$font-size-h4:           rem(ceil(($font-size-base * 1.25))) !default;
+$font-size-h5:           rem($font-size-base) !default;
+$font-size-h6:           rem(ceil(($font-size-base * .85))) !default;
+
+$line-height-base:       1.75 !default;
+$line-height-computed:   floor(($font-size-base * $line-height-base)) !default;
+$line-height-header:     1.25 !default;

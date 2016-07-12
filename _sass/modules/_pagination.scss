@@ -1,0 +1,22 @@
+.pagination {
+  @include clearfix;
+  margin: 5rem 0;
+
+  &__link {
+    @include clearfix;
+    width: 100%;
+
+    @media screen and (min-width: 770px) {
+      float: left;
+      width: 50%;
+    }
+
+    &--previous {
+      float: left;
+    }
+
+    &--next {
+      float: right;
+    }
+  }
+}

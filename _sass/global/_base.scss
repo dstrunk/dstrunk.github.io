@@ -1,0 +1,99 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - base
+// project defaults for base elements - h1-h6, p, a, etc.
+
+body {
+  background: $body-bg;
+  color: $text-color;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-base * .875;
+  line-height: $line-height-base;
+  min-height: 100vh;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+
+  @media screen and (min-width: 480px) {
+    font-size: $font-size-base;
+  }
+}
+
+h1 {
+  font-size: $font-size-h1;
+}
+
+h2 {
+  font-size: $font-size-h2;
+}
+
+h3 {
+  font-size: $font-size-h3;
+}
+
+h4 {
+  font-size: $font-size-h4;
+}
+
+h5 {
+  font-size: $font-size-h5;
+}
+
+h6 {
+  font-size: $font-size-h6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $header-color;
+  font-family: $font-family-sans-serif;
+  font-weight: bold;
+  line-height: $line-height-header;
+}
+
+a {
+  border-bottom: 2px solid rgba($link-color, 0.8);
+  color: $link-color;
+  text-decoration: none;
+  transition: color 300ms ease-in-out, border 300ms ease-in-out;
+
+  &:hover {
+    color: $link-hover-color;
+    border-bottom: 2px solid rgba($link-hover-color, 0.8);
+  }
+
+  &:active {
+    color: $link-active-color;
+    border-bottom: 2px solid rgba($link-active-color, 0.8);
+  }
+
+  &:visited {
+    color: $link-visited-color;
+    border-bottom: 2px solid rgba($link-visited-color, 0.8);
+  }
+
+  &:focus {
+    color: $link-focus-color;
+    border-bottom: 2px solid rgba($link-focus-color, 0.8);
+  }
+}
+
+pre,
+code {
+  background: darken($body-bg, 5%);
+  font-size: $font-size-base * .8;
+}
+
+code {
+  padding: 1px 3px;
+}
+
+pre {
+  padding: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}

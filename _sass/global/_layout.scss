@@ -1,0 +1,34 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - layout
+// global layout classes - height, width, padding, margin, etc.
+
+section {
+  margin: 3rem 0;
+}
+
+main.home {
+  padding: 1rem;
+  width: 100%;
+
+  @media screen and (min-width: 891px) and (max-width: 1199px) {
+    padding: 6rem;
+    width: 75%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 6rem;
+    width: 60%;
+  }
+}
+
+.single-column {
+  @include outer-container(660px);
+
+  @media screen and (max-width: 726px) {
+    padding: 0 3rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 0 0.75rem;
+  }
+}

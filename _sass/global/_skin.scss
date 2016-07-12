@@ -1,0 +1,7 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - skin
+// global skin styles - gradients, colors, box-shadows, etc.
+
+@mixin shadow {
+  box-shadow: 0 0 8px transparentize($fuscous-grey, 0.4);
+}
