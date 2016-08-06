@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html>
+{% include header.html %}
 
-  {% include head.html %}
+<main{% if page.slug %} class="{{ page.slug }}"{% elsif page.title %} class="{{
+page.title | slugify }}"{% endif %} role="main">
+  {{ content }}
+</main>
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+{% include footer.html %}

@@ -1,0 +1,38 @@
+{% include header.html %}
+
+<main{% if page.slug %} class="{{ page.slug }}"{% elsif page.title %} class="{{
+page.title | slugify }}"{% endif %} role="main">
+  <div class="single-column blog">
+		<header class="header">
+			<h1 class="header__title">{{ page.title }}</h1>
+			<p class="header__categories">{{ page.tags | join: ', ' }}</p>
+			<h2 class="header__description">{{ page.description }}</h2>
+			<p class="header__date">{{ page.date | date: "%B %d, %Y" }}</p>
+		</header>
+
+    {{ content }}
+
+    {% include comments.html %}
+  </div>
+</main>
+
+{% if page.previous.url && page.next.url %}
+<nav id="pagination" class="pagination pagination__static">
+	{% if page.previous.url %}
+	<a class="pagination__static--left hidden" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">
+		<span class="pagination__static--title">{{ page.previous.title }}</span><span class="pagination__static--arrow-left">&larr;</span>
+	</a>
+	{% endif %}
+
+	{% if page.next.url %}
+	<a class="pagination__static--right hidden" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">
+		<span class="pagination__static--arrow-right">&rarr;</span><span class="pagination__static--title">{{ page.next.title }}</span>
+	</a>
+	{% endif %}
+</nav>
+{% endif %}
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+{% include footer.html %}

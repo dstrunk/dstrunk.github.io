@@ -1,0 +1,110 @@
+$font-size-header: $font-size-h1 * 0.6;
+
+.application-header {
+  @include clearfix;
+
+  &.active > .application-header__nav {
+    display: block;
+    opacity: 1;
+  }
+}
+
+.application-header__title {
+  float: left;
+  font-size: $font-size-header;
+  margin-left: 6rem;
+  margin-top: 2.35rem;
+
+  @media screen and (max-width: 870px) {
+    margin: 0.67em auto;
+    text-align: center;
+    float: none;
+  }
+
+  & > small {
+    @media screen and (max-width: 870px) {
+      display: none;
+    }
+  }
+}
+
+.application-header__mobile-icon {
+  border-bottom: 0;
+  display: none;
+  left: 1.5rem;
+  position: absolute;
+  top: 1rem;
+
+  @media screen and (max-width: 870px) {
+    display: block;
+  }
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    border-bottom: 0;
+  }
+}
+
+.application-header__nav {
+  float: right;
+  margin-top: 2.65rem;
+  transition: opacity 0.1s linear;
+
+  @media screen and (max-width: 870px) {
+    display: none;
+    margin-top: 0;
+    opacity: 0;
+    padding-bottom: 1.5rem;
+    width: 100%;
+  }
+}
+
+.application-header__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media screen and (max-width: 870px) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+}
+
+.application-header__list-item {
+  display: inline-block;
+  margin-right: 1.5rem;
+
+  &:last-of-type {
+    margin-right: 6rem;
+
+    @media screen and (max-width: 870px) {
+      margin-right: 0;
+    }
+  }
+
+  &:first-of-type {
+    @media screen and (max-width: 870px) {
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 870px) {
+    margin-top: 1.5rem;
+    margin-right: 0;
+    display: block;
+  }
+}
+
+.application-header__link {
+  border-bottom: 0;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    border-bottom: 0;
+  }
+}
