@@ -24,13 +24,15 @@ $brand-danger:     $crimson      !default;
 ///
 /// Settings for global styles
 $body-bg:            lighten($link-water, 20%) !default;
-$header-color:       $crimson !default;
-$text-color:         $fuscous-grey  !default;
+$header-color:       $fuscous-grey !default;
+$text-color:         $fuscous-grey !default;
 $link-color:         $brand-primary !default;
 $link-hover-color:   darken($link-color, 15%) !default;
 $link-active-color:  lighten($link-color, 10%) !default;
 $link-visited-color: $link-color !default;
 $link-focus-color:   lighten($link-color, 20%) !default;
+$border-radius:      5px !default;
+$highlight-color:    $crimson !default;
 
 
 /// Typography

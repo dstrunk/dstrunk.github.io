@@ -1,6 +1,6 @@
 ---
 permalink: /
-layout: default
+layout: home
 title: Home
 description: Personal website of Daniel Strunk, a web developer
 ---

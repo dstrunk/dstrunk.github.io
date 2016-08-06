@@ -2,45 +2,60 @@
 
 <main{% if page.slug %} class="{{ page.slug }}"{% elsif page.title %} class="{{ page.title | slugify }}"{% endif %} role="main">
 
-	<div class="single-column blog-index">
-    <ul class="post__list">
-      {% for post in paginator.posts %}
-        <li class="post__list--item">
+  <div class="single-column blog-index">
+    <section class="summary">
+      <ul class="summary__list summary-list">
+        {% for post in paginator.posts %}
+        <li class="summary-list__item">
+          <header class="summary-list__header">
+            <a href="{{ post.url }}">
+              <h2 class="summary-list__title">{{ post.title }}</h2>
+            </a>
 
-          {% include blog/_postmeta.html target=post %}
+            {% if post.tags %}
+            <p class="summary-list__categories">{{ post.tags | join: ', ' }}</p>
+            {% endif %}
 
-          <p class="post__excerpt">
-          {{ post.content | strip_html | truncatewords: 50 }}
+            {% if post.description %}
+            <h3 class="summary-list__description">{{ post.description }}</h3>
+            {% endif %}
+            
+            <p class="summary-list__date">{{ post.date | date: "%B %d, %Y" }}</p>
+
+          </header>
+          <p class="summary-list__excerpt">
+            {{ post.content | strip_html | truncatewords: 50 }}
           </p>
 
-          <a class="post__more-link" href="{{ post.url }}">Read more</a>
-
+          <a class="summary-list__more-link" href="{{ post.url }}">Read more</a>
         </li>
-      {% endfor %}
-    </ul>
+        {% endfor %}
+      </ul> 
+    </section>
 
     {% if paginator.total_pages > 1 %}
-      <div class="pagination">
-        {% if paginator.next_page %}
-        <div class="pagination__link">
-          <a class="pagination__link--previous"
-             href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-            &larr; Previous page
-          </a>
-        </div>
-        {% endif %}
-
-        {% if paginator.previous_page %}
-        <div class="pagination__link">
-          <a class="pagination__link--next"
-             href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-            Next page &rarr;
-          </a>
-        </div>
-        {% endif %}
+    <div class="pagination">
+      {% if paginator.next_page %}
+      <div class="pagination__link">
+        <a class="pagination__link--previous"
+           href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+          &larr; Previous page
+        </a>
       </div>
+      {% endif %}
+
+      {% if paginator.previous_page %}
+      <div class="pagination__link">
+        <a class="pagination__link--next"
+           href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+          Next page &rarr;
+        </a>
+      </div>
+      {% endif %}
+    </div>
     {% endif %}
   </div>
+
   
 </main>
 

@@ -15,6 +15,11 @@
 		<link rel="stylesheet"
 				  href="{{ base }}/css/github.css"">
 	{% endif %}
+  {% if page.custom_css %}
+    {% for css in page.custom_css %}
+      <script src="/css/{{ css | prepend: site.baseurl }}"></script>
+    {% endfor %}
+  {% endif %}
 </head>
 <body{% if page.slug %} class="{{ page.slug }}"{% elsif page.title %} class="{{
 page.title | slugify }}"{% endif %}>
@@ -31,7 +36,7 @@ page.title | slugify }}"{% endif %}>
 
   <header class="application-header" data-application-header>
     <a class="application-header__mobile-icon" data-application-nav-mobile-icon="true" href="/">☰</a>
-		<a href="/">
+		<a class="application-header__home-link" href="/">
 			<h1 class="application-header__title">Daniel Strunk <small>web developer</small></h1>
 		</a>
     {% include nav.html %}

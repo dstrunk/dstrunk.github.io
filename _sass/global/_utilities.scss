@@ -1,15 +1,11 @@
 // - - - - - - - - - - - - - - - - - - -
-// - - utilities
-// global extends, mixins, functions, and utility classes
+// - - skin
+// global skin styles - gradients, colors, box-shadows, etc.
 
-// - - - - - - - - - - - - - - - - - - -
-// - - extends
+%box-shadow {
+  box-shadow: 0 0 8px transparentize($link-water, 0.4);
+}
 
-// - - - - - - - - - - - - - - - - - - -
-// - - mixins
-
-// - - - - - - - - - - - - - - - - - - -
-// - - functions
-
-// - - - - - - - - - - - - - - - - - - -
-// - - utilities
+%border-radius {
+  border-radius: 4px;
+}
