@@ -22,7 +22,7 @@ topic you'd like to see covered? [Post an issue.][til-issues]{:target="_blank"}
 
 Also, [follow me on Twitter!][twitter]{:target="_blank"} Or, if you have a
 burning question or comment that takes up more than 140 characters, you can send
-me an email at [hello@danielstrunk.me].
+me an email at [daniel@strunk.me].
 
 [ruby]: http://ruby-lang.org
 [elixir]: http://elixir-lang.org
@@ -33,4 +33,4 @@ me an email at [hello@danielstrunk.me].
 [til]: http://danielstrunk.me/blog
 [til-issues]: https://github.com/dstrunk/dstrunk.github.io/issues
 [twitter]: http://twitter.com/dstrunk
-[hello@danielstrunk.me]: mailto:hello@danielstrunk.me
+[daniel@strunk.me]: mailto:daniel@strunk.me
