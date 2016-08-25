@@ -14,7 +14,7 @@ replicated (more or less) the same tasks with vim.
 First, install the vim plugin [UltiSnips][ultisnips]. Next, create a snippet in
 `~/.vim/UltiSnips/php.snippets`:
 
-~~~ sh
+~~~sh
 snippet _c "Constructor"
 public function __construct(${1})
 {
@@ -24,7 +24,7 @@ endsnippet
 
 Now, add the following to your `.vimrc`:
 
-~~~ sh
+~~~sh
 let @a='lyF${iprotected ;^C^CPo^C^Cjjo$this-> = ;^C^CPlybbbblp'
 let @b='lyF$k?protected^Moprotected ;^C^CPjjj%O$this-> = ;^C^CPlybbbblp'
 ~~~
