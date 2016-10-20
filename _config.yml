@@ -40,6 +40,7 @@ gems:
   - jekyll-github-metadata
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-gist
 
 # GitHub
 repository: dstrunk/dstrunk.github.io
