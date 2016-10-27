@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'Link: Rails Rumble Gem Teardown'
+tags: [ruby, rails]
 ---
 > [Rails Rumble Gem Teardown](https://www.dwellable.com/blog/Rails-Rumble-Gem-Teardown)
 

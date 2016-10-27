@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Web scraping with Ruby and Nokogiri
+tags: [ruby]
 ---
 
 **updated on Aug 23, 2016**

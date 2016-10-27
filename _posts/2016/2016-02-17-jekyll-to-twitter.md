@@ -1,7 +1,7 @@
 ---
 layout: blog/show
 title: Autopost from Jekyll to Twitter
-tags: [Workflow]
+tags: [workflow]
 description: Learn how to automatically post from Jekyll to Twitter
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'Link: Interleaved Buffered Geometry'
+tags: [misc]
 ---
 
 [http://benaadams.github.io/three.js/examples/webgl_interleavedbuffergeometry.html](http://benaadams.github.io/three.js/examples/webgl_interleavedbuffergeometry.html "Ben Adams - WebGL Interleaved Buffered Geometry")

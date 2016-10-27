@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'ECMAScript 6 features: let'
+tags: [javascript, ecmascript 6 features]
 ---
 
 With the target date of [December 2013](http://ecma-international.org/memento/TC39-M.htm "TC39 - ECMAScript") looming ever closer, I thought it would be good to write up a series of posts concerning the upcoming ECMAScript 6. This post will talk about the `let` keyword. It's a pretty simple concept, but I think it will clear up a lot of headaches with development.

@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Replace conditional with polymorphism in WordPress themes and Advanced Custom Fields
+tags: [wordpress, php]
 ---
 
 I haven't blogged in a while, and there's a reason for that: I'm working on combining my portfolio and blog into one site over at [danielstrunk.me][danielstrunk]. Recently, however, I was working on a WordPress layout, and built out something that could help others in my situation... and I couldn't wait to publish it on the new platform!

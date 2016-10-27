@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Changing CSS to Sass in Bower dependencies
+tags: [workflow, css]
 ---
 I'm working on an updated version of our company's online styleguide at work, and wanted to modernize it by introducing [Bower](//bower.io/) and [Gulp](//gulpjs.com) into the build process. This will make it easier to update and share with other developers as our team grows.
 

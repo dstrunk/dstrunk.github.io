@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Polyfills and shims for IE8 support
+tags: [html]
 ---
 If you've ever done work for a government, financial or B2B organization, you might find yourself needing to support Internet Explorer 8. I know, I know: you've made your case for dropping support, pointing out that [large][salesforce] [SaaS][zurb] [companies][google] are dropping support (or dropped support years ago), Microsoft itself is [dropping support soon][microsoft], development time could double, etc. But higher ups point out that 10+% of users are locked into IE8, and until corporate IT is able to justify OS upgrades, we're stuck.
 

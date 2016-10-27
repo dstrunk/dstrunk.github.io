@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Printing the web
+tags: [misc, html, css]
 ---
 
 [http://drublic.de/blog/printing-the-web/](http://drublic.de/blog/printing-the-web/ "Printing the web")

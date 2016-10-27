@@ -1,7 +1,7 @@
 ---
 layout: blog/show
 title: Resizing splits in Emacs
-tags: [emacs]
+tags: [workflow, emacs]
 description: Easily resize splits without your mouse
 ---
 

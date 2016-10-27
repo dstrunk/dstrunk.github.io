@@ -2,6 +2,7 @@
 layout: blog/show
 title: 'Link: More Impact Through Emotional Design'
 date: 2013-08-23 12:50:14.000000000 -04:00
+tags: [misc]
 ---
 [http://thenextweb.com/dd/2013/08/23/more-impact-through-emotional-design/](http://thenextweb.com/dd/2013/08/23/more-impact-through-emotional-design/ "The Next Web - More Impact Through Emotional Design")
 

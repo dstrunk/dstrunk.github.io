@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Is Zepto still relevant?
+tags: [javascript]
 ---
 This is a mini blog post of sorts. With the [recent release](http://blog.jquery.com/2013/04/18/jquery-2-0-released/ "jQuery 2.0 released") of jQuery 2.0, I wondered how relevant [Zepto](http://zeptojs.com/ "ZeptoJS") now is.
 

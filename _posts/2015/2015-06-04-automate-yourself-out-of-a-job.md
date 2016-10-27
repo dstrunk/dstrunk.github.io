@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Automate yourself out of a job
+tags: [misc]
 ---
 Recently somebody at work came to me with a scenario:
 

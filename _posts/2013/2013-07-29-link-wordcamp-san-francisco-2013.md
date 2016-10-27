@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'Link: WordCamp San Francisco 2013'
+tags: [wordpress, php]
 ---
 
 [http://wordpress.tv/2013/07/28/mark-jaquith-confident-commits-delightful-deploys-2/](http://wordpress.tv/2013/07/28/mark-jaquith-confident-commits-delightful-deploys-2/ "Mark Jaquith: Confident Commits, Delightful Deploys")

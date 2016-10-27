@@ -1,7 +1,7 @@
 ---
 layout: blog/show
 title: PHP constructor macros
-tags: [Development, PHP]
+tags: [development, php]
 description: Automate tedious object-oriented PHP tasks with vim
 ---
 

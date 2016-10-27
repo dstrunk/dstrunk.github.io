@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Regex Tuesday
+tags: [misc]
 ---
 
 [http://callumacrae.github.io/regex-tuesday/](http://callumacrae.github.io/regex-tuesday/ "RegEx Tuesday")

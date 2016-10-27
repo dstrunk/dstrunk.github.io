@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'Roboparts: configuring the Rails framework'
+tags: [ruby, rails]
 ---
 Over the weekend I completed version 0.6 of my gem, [roboparts]. Roboparts is a command line tool that piggybacks on the Rails engine to create custom defaults that I use a lot when setting up new projects. To use, run `roboparts your-project` to build a customized rails framework with RSpec, FactoryGirl, and some other goodies already set up for you.
 

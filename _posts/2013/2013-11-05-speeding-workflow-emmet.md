@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Speeding up your workflow with Emmet
+tags: [workflow, html]
 ---
 
 Recently, a colleague asked me to create a quick and dirty website structure for a demo taking place later that day. Here's how the conversation went:

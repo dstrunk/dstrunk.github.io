@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Accidental simple state machine with Rails 4
+tags: [ruby, rails]
 ---
 At work I'm always looking for opportunities to work smarter, not harder. To cut out repetitive tasks that keep me from getting meaningful work done. That's what computers are for, right? Most recently, I grew tired with a gap in how we managed and tracked projects, and decided to do something about it.
 

@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Taking the middle road
+tags: [misc]
 ---
 Nobody likes the braggart in the room; they are loud, haughty, annoyingly boastful and generally just a pain to be around. I'm sure you've worked with somebody similar. Yet, something can be said about these individuals: they are usually fantastic salespeople, as long as they're selling themselves or something they believe in. They are sure-footed, confident. Positive that their way is the correct one. On the other end of the spectrum, somebody lacking zero confidence is equally as annoying; constantly second guessing themselves, unable to follow through and always needing their hands held through a process. And these people also have their benefits: because of their introspection, these people rarely jump the gun on rash decisions that could come back to bite them later on. In my career, I've seen people on either end of the spectrum, and the extremes of either are usually uncomfortable to work with. And it's a sliding scale; some are better than others. But the ones that I've seen that have been the best are the ones that take the middle road.
 

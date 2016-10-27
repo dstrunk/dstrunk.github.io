@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Some clever train-pun title
+tags: [ruby, rails, resolution 2014]
 ---
 
 It's now week ... I don't even know any more! Week 6, I think. Maybe week 7 officially—my [GitHub contributions log](https://github.com/dstrunk) is showing 51 days now, so there's that. It's been a busy week, day-job-work-wise. That's my excuse for the lack of blog posts (and a somewhat schizophrenic blog post) ... but there's never an excuse for not continuing my Ruby on Rails quest! This week I continued my [URL shortener project](https://github.com/dstrunk/shorter), writing my first unassisted unit and integration tests. The thing I really love about TDD is just how gratifying it is. I'll admit I cheated a bit—creating a model and doing some light validation beforehand—but writing those first tests and seeing no errors made me almost giddy. Next up on that front is collecting analytics for links clicked; browser information, number of clicks, and so on. Oh! Here's one reason why I enjoy Ruby so much: it's so *expressive*. Check out this code for a random upper / lowercase / number generator that is building URLs for the URL shortener:

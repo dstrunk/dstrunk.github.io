@@ -1,7 +1,9 @@
 ---
 layout: blog/show
 title: 'Link: False Hustle'
+tags: [misc]
 ---
+
 http://jeffarchibald.ca/false-hustle/
 
 This is a great article that hits home for me. It's easy to justify administrative tasks as Getting Things Done, when really we're just spinning our wheels.

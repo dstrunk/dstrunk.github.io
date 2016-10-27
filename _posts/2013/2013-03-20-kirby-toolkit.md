@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Kirby Toolkit
+tags: [php]
 ---
 
 [http://toolkit.getkirby.com/](http://toolkit.getkirby.com/ "Kirby Toolkit")

@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'Learning Rails: half a year in'
+tags: [ruby, rails, resolution 2014]
 ---
 
 Welp, if my Github contributions graph is to be trusted, I'm now sitting at a half a year of web development. For better or worse, here's what I've picked up so far.

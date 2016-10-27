@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Get a whiteboard! Sketch! Plan!
+tags: [misc]
 ---
 
 Short on code or examples today, but this topic is just as (if not more) important than any code I could come up with. It's extremely easy in Rails to create a basic CRUD app that fulfils business needs or scratches a developer's itch. But I think that many people get so focused on the "I have an idea let's build it NOW" mentality, that the user's experience gets left in the dust. Sure, the code behind your app is incredibly important. But the design of your application is the **most** important thing; not just the look and feel of the app, but how it works.

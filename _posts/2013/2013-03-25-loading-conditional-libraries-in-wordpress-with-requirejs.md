@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Loading conditional libraries in WordPress with RequireJS
+tags: [wordpress, php, workflow, javascript]
 ---
 **07/02/13 Update:** One thing I failed to consider when this was originally written up was loading plugins that also utilize the script you are asynchronously loading. In my case, and I'm sure there are [many](http://stackoverflow.com/questions/15972757/getting-jquery-validation-plug-in-to-work-with-requirejs) [others](http://wordpress.stackexchange.com/questions/50522/require-js-to-load-javascript) with this problem, jQuery. If another WP plugin lists jQuery via an *enqueue_script* in the **functions.php**, you will have two versions of jQuery, which is no bueno. There are [some tickets open](http://core.trac.wordpress.org/ticket/23285 "Make WordPress Core - AMD") to implement AMD into WordPress core, but I don't think there's a clean solution for this yet. Just a heads up before reading the article below.
 

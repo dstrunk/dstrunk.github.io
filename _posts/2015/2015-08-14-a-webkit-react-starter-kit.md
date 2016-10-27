@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: A webkit React starter kit
+tags: [javascript]
 ---
 Over the last couple of days, I've been prototyping a web application that I've
 had an idea for ever since jumping into Rails. It was on the backburner for a

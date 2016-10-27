@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: The labs are now open!
+tags: [misc]
 ---
 
 [http://labs.dstrunk.com](http://labs.dstrunk.com "Daniel Strunk labs")

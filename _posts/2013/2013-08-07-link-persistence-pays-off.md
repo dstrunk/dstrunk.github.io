@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'Link: Persistence Pays Off'
+tags: [misc]
 ---
 
 [http://stemmings.com/persistence-pays-off/](http://stemmings.com/persistence-pays-off/ "Stemmings - Persistence Pays Off")

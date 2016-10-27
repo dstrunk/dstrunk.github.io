@@ -1,7 +1,7 @@
 ---
 layout: blog/show
 title: Configure Vagrant to test emails using Gmail
-tags: [Vagrant, workflow]
+tags: [vagrant, workflow]
 description: Send emails from your local Vagrant box using Postfix and Gmail
 ---
 

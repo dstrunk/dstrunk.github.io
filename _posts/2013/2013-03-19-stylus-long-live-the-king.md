@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Stylus - long live the king
+tags: [workflow, css]
 ---
 
 ## Once upon a time...

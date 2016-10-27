@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Embedding images in CSS with base64 encode
+tags: [css]
 ---
 
 A recent *A List Apart* article, [Improving UX Through Front-End Performance](http://alistapart.com/article/improving-ux-through-front-end-performance "Improving UX Through Front-End Performance"), reminded me of how important optimizing your front end can be to conversions. While we don't live in the age of the 28.8k modem any more, the information laid out in the article stressed how important optimization still is. Things like [coding for performance](http://alistapart.com/article/improving-ux-through-front-end-performance#section2 "Coding for Performance"), [optimizing requests](http://alistapart.com/article/improving-ux-through-front-end-performance#section3 "Optimizing Requests") and [optimizing images](http://alistapart.com/article/improving-ux-through-front-end-performance#section4 "Optimizing Images") should be a front-end standard. Other things were touched on that might not be so obvious; namely, **embedding images in CSS with base64**. I didn't previously know how to do this, or even what base64 encoding was, which led to this article.

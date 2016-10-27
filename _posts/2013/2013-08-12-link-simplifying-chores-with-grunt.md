@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'Link: Simplifying chores with Grunt'
+tags: [workflow, grunt]
 ---
 
 [http://howtonode.org/simplifying-chores-with-grunt](http://howtonode.org/simplifying-chores-with-grunt "How to Node - Simplifying Chores with Grunt")

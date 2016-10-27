@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Git and the importance of version control
+tags: [git]
 ---
 
 Version control is a glorious thing. Let's run through a scenario:

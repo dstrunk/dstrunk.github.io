@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Happy one year anniversary!
+tags: [misc]
 ---
 I was always something of a serial blogger in the past, creating niche sites, updating them for a month or two, then forgetting about them completely. After being an internet nomad for several years, moving from domain to domain, I finally settled on [dstrunk.com](http://dstrunk.com "Daniel Strunk") exactly one year ago—December 21st, 2012 (that's right, I *started* my blog at the [end of the world](http://en.wikipedia.org/wiki/2012_phenomenon#Mayan_references_to_b.27ak.27tun_13 "Wikipedia")). This time, instead of creating a niche site I was marginally interested in, I decided to stay true to what I enjoyed: talking about front-end development, WordPress, and the Open Source community as a whole. Talking about things that interested me proved to be the formula needed to keep up the writing habit (who knew?). Now, here we are, 52 posts later (averaging a post a week—not bad, considering my previously mentioned history with blogs), celebrating one year of writing. On this site's birthday, I'd like to do something similar to what I do on my real birthday—reflect on everything I've learned over the past year, and outline some goals to shoot for over the next year.
 

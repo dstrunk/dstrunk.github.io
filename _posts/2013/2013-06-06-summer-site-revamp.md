@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Summer site revamp
+tags: [misc]
 ---
 
 Welcome to the new [dstrunk.com](http://dstrunk.com "Daniel Strunk Design and Development")! In an attempt to get rid of the cruft, the site was redesigned from the ground up. All extraneous information (which was most of the previous site) has been removed. This current site's focus is on readability, navigability, and upgradability. Some quick notes:

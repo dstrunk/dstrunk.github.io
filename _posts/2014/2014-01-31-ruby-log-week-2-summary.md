@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'Ruby log: week 2 summary'
+tags: [ruby, rails, resolution 2014]
 ---
 
 I honestly didn't even think about documenting my process on learning Ruby on Rails until this week. Shortsighted, I know. But here it is, my second full week of learning Ruby and Rails (in earnest). I'll try to provide updates every Friday. First, I like to count two weeks ago as my **true** start date for a couple of reasons:

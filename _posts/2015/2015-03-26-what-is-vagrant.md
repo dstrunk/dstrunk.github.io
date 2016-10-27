@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: What is Vagrant?
+tags: [workflow, vagrant]
 ---
 While trying to drag a WordPress install into the 21st century for the last week or so, I've been working with [Vagrant][vagrant], among other things, to bring parity to a development-vs-production environment. But Vagrant was kind of a black box to me... it worked (and nicely, I might add), but I had no idea how it did what it did, and why *exactly* I should use it instead of just downloading MAMP.
 

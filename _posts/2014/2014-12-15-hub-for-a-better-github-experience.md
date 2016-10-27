@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Hub for a better GitHub experience
+tags: [git]
 ---
 I recently installed [Hub](https://hub.github.com/), a command line wrapper for git that pairs nicely with GitHub. Hub makes it easier to fetch repositories, navigate project pages and fork repos from the command line.
 

@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'Video link and discussion: h2 position sticky'
+tags: [html, misc]
 ---
 **via [https://air.mozilla.org/intern-presentation-ford/](https://air.mozilla.org/intern-presentation-ford/ "Air Mozilla - h2 position sticky") -** Here's an exciting pseudo-proposition to CSS3: `position: sticky`. "Sticky" elements are similar to fixed positioning, in that they stay "fixed" to a viewport-relative position. The difference with sticky elements though (and one that I'm very excited about) is that sticky elements maintain their relativity to their parent containers. A trend that's been going around a while in web design lately has been having elements remain sticky only for certain parts of a page. To paraphrase somebody that can explain this behaviour better than I:
 

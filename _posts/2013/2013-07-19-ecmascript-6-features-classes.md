@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: 'ECMAScript 6 features: classes'
+tags: [javascript, ecmascript 6 features]
 ---
 Continuing my ES6 series, today we're going to talk about classes. People coming from a more traditional programming background will already be familiar with classes, but for the uninitiated: a class is a representation of an object. A real world example might be: **Vehicle** is a class, and **Car** is an object within the Car class. Past iterations of JavaScript are like school in the summertime (no class). Instead, everything is an object. If you've read [*JavaScript: The Good Parts*](http://www.amazon.com/gp/product/0596517742/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596517742&linkCode=as2&tag=sa0c7-20 "Amazon - JavaScript: The Good Parts by Douglas Crockford"), you might be familiar with the somewhat unintuitive way of implementing classes within JavaScript:
 

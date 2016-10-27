@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Configuring Rails projects with FastCGI for Dreamhost shared hosting
+tags: [ruby, rails]
 ---
 
 Last night I decided to install [Redmine](www.redmine.org/) on one of my subdomains to help track my projects. Redmine is a fantastic (free!) project management app built on Rails. It's highly customizable and enjoys all of the features that the big boys offer. It's a great piece of software, and I highly recommend it; not only to budget-conscious outfits, but even bigger companies looking to improve their workflow. Back to last night, though. Seeing as Redmine is a Rails app, I could have run it as a Heroku app and wiped my hands of it, but I wanted more control. I've also had a shared hosting account on Dreamhost since forever, so I decided to test their Rails support. I'd read some horror stories in the past, but after some initial stumbling around, it wasn't so bad.

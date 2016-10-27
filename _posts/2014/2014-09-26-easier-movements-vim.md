@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: Easier movements in vim
+tags: [workflow, vim]
 ---
 
 As a recent adopter of vim, I'll admit I fell into a trap. I removed arrow key support in an attempt to do things the "vim way", only to use `hjkl` the same way as I would have the arrow keys. I missed the point entirely, moving around the editor completely inefficiently. And I suspect others have fallen into the same trap. In an attempt to help others break out of the inefficiencies I'm also guilty of, I'd like to share a couple of ways to force yourself to adopt true vim proficiency.

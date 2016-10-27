@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: A roundup of Ghost how-tos
+tags: [ghost, javascript, nodejs]
 ---
 
 Well, it looks like a lot of my fears regarding installing Ghost were for naught. For Kickstarter backers, the kind folks at Ghost and company have emailed a roundup of links that make installing Ghost painless on most every host. I'll post a couple below after a short brain dump. The first link, "How to install Ghost on different hosting providers," is a great resource not just for Ghost, but for nodeJS development in general. I only paid attention to the Dreamhost VPS one, but the details laid out in that tutorial also apply to Ruby development, etc. Once Ghost is installed, the next three blog posts show how simple it is to install things like Google+ or Facebook comments on Ghost. This is the great thing about Ghost being developed on such a rich platform as nodeJS—there are already tons of libraries that have been developed for most any purpose you can think of. The last link is a printable markdown cheat sheet.

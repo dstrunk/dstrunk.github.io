@@ -1,6 +1,7 @@
 ---
 layout: blog/show
 title: New site launch
+tags: [misc]
 ---
 
 I updated my site for 2013! In addition to a general site redesign, I've reorganized the site, featuring the portfolio more prominently. Other site features:

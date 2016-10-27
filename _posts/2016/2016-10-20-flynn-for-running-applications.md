@@ -3,7 +3,7 @@ layout: blog/show
 title: Flynn + DigitalOcean for easily running applications
 tags: [workflow]
 description: Configure a platform for running apps in seconds on your own servers using Flynn
-date: 2016-10-15 13:30:00 -0500
+date: 2016-10-20 13:30:00 -0500
 ---
 
 I've written several toy apps over the years, created in Rails, Sinatra,
