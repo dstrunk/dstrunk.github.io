@@ -16,33 +16,51 @@
   transition: opacity .1s linear;
 }
 
-main.home {
-  padding: 1rem;
-  width: 100%;
+.container {
+  @include outer-container(660px);
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 6rem 0;
 
-  @media screen and (min-width: 891px) and (max-width: 1199px) {
-    padding: 6rem;
-    width: 75%;
+  aside {
+    padding: 0 5rem 0 0;
   }
 
-  @media screen and (min-width: 1200px) {
-    padding: 6rem;
-    width: 60%;
+  main {
+    flex: 1 1;
+  }
+
+  @media screen and (max-width: 726px) {
+    padding: 6rem 3rem 3rem 3rem;
+
+    aside,
+    main {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 3rem 0.75rem 1.5rem 0.75rem;
   }
 }
 
 .single-column {
   @include outer-container(660px);
-  padding: 9rem 0 3rem 0;
+  padding: 6rem 0;
 
   @media screen and (max-width: 726px) {
-    padding: 9rem 3rem 3rem 3rem;
+    padding: 6rem 3rem 3rem 3rem;
   }
 
   @media screen and (max-width: 480px) {
-    padding: 6rem 0.75rem 1.5rem 0.75rem;
+    padding: 3rem 0.75rem 1.5rem 0.75rem;
   }
+}
 
+.blog {
   img {
     @extend %box-shadow;
 

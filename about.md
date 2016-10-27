@@ -2,21 +2,35 @@
 permalink: /about
 layout: default
 title: About
-description: About me
+description: Personal website of Daniel Strunk, a web developer
 ---
 
-This is the portfolio of Daniel Strunk, a web developer with a passion for
-learning new technologies and making things that help people with their work.
-{:.intro}
+I'm Daniel Strunk, a web developer from Columbus, GA, USA. I enjoy working with
+and expanding my knowledge of web development through
+[Ruby][ruby]{:target="_blank"} and [Elixir][elixir]{:target="_blank"}
+(JavaScript can come too--at the moment I'm interested in [Elm][elm]{:target="_blank"}).
 
-## About me
+I love working with Vim and Tmux, and [my dotfiles][dotfiles]{:target="_blank"}
+are a testament to that workflow. I've got a couple of projects I'm hacking on
+posted to [my GitHub][github]{:target="_blank"}. Most of the projects are
+[breakable toys][apprenticeship-patterns]{:target="_blank"} meant to prove a
+concept, but my ultimate goal is to release a couple as SaaS products in the
+near future.
 
-I've got a traditional design education from Auburn University, but my career
-since then has been anything but. I've moonlit as a freelance designer, built
-websites for a Fortune 500 company, and developed eCommerce sites for well-known
-global brands.
+[I blog about web development][til]{:target="_blank"} semi-regularly. Got a
+topic you'd like to see covered? [Post an issue.][til-issues]{:target="_blank"}
 
-## What I've done
+Also, [follow me on Twitter!][twitter]{:target="_blank"} Or, if you have a
+burning question or comment that takes up more than 140 characters, you can send
+me an email at [daniel@strunk.me].
 
-My career has lead me to work with some great companies that have pushed me to
-further my development skills. Check out my resume to see the highlights.
+[ruby]: http://ruby-lang.org
+[elixir]: http://elixir-lang.org
+[elm]: http://elm-lang.org
+[dotfiles]: http://github.com/dstrunk/dotfiles
+[github]: http://github.com/dstrunk
+[apprenticeship-patterns]: http://chimera.labs.oreilly.com/books/1234000001813/ch05.html
+[til]: http://danielstrunk.me/blog
+[til-issues]: https://github.com/dstrunk/dstrunk.github.io/issues
+[twitter]: http://twitter.com/dstrunk
+[daniel@strunk.me]: mailto:daniel@strunk.me

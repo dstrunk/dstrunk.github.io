@@ -1,0 +1,55 @@
+---
+title: Tags
+description: Tags from the blog
+permalink: /tags/
+layout: bare
+---
+
+{% assign tags_list = site.tags | sort %}
+
+<section class="container">
+  <aside role="complementary">
+    <h2 class="tag-header">Tags</h2>
+    <ul class="category-list">
+      {% if tags_list.first[0] == null %}
+      {% for tag in tags_list %}
+      <li>
+        <a href="/tags#{{ tag | slugify }}-ref" class="category-list__group-item">{{ tag | capitalize }}</a>
+        <span class="category-list__group-item--badge">{{ site.tags[tag].size }}</span>
+      </li>
+      {% endfor %}
+      {% else %}
+      {% for tag in tags_list %}
+      <li>
+        <a href="/tags#{{ tag[0] | slugify }}-ref" class="category-list__group-item">{{ tag[0] | capitalize }}</a>
+        <span class="category-list__group-item--badge">{{ tag[1].size }}</span>
+      </li>
+      {% endfor %}
+      {% endif %}
+    </ul>
+  </aside>
+
+  <main{% if page.slug %} class="{{ page.slug }}"{% elsif page.title %} class="{{ page.title | slugify }}"{% endif %} role="main">
+    {% for tag in tags_list %}
+    <h2 class='tag-header' id="{{ tag[0] | slugify }}-ref">{{ tag[0] | capitalize }}</h2>
+    <ul>
+      {% assign pages_list = tag[1] %}
+
+      {% for node in pages_list %}
+      {% if node.title != null %}
+      {% if group == null or group == node.group %}
+      {% if page.url == node.url %}
+      <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+      {% else %}
+      <li><a href="{{node.url}}">{{node.title}}</a></li>
+      {% endif %}
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+
+      {% assign pages_list = nil %}
+      {% assign group = nil %}
+    </ul>
+    {% endfor %}
+  </main>
+</section>

@@ -1,0 +1,11 @@
+.category-list {
+  list-style: none;
+  padding: 0;
+
+  &__group-item {
+    
+    &--badge {
+      font-size: .8rem;
+    }
+  }
+}

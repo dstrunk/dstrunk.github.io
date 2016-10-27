@@ -1,0 +1,33 @@
+.vcard {
+  margin: 0 auto;
+  text-align: center;
+
+  &__img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .15);
+    margin: 1rem 0;
+  }
+
+  &__social-icons {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 8rem;
+
+    &--twitter,
+    &--github,
+    &--linkedin {
+			height: auto;
+			margin: auto;
+			width: 20px;
+    }
+
+    &--twitter svg,
+    &--github svg,
+    &--linkedin svg {
+      fill: $text-color;
+    }
+  }
+}
