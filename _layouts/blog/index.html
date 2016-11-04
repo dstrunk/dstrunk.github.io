@@ -3,6 +3,19 @@
 <main{% if page.slug %} class="{{ page.slug }}"{% elsif page.title %} class="{{ page.title | slugify }}"{% endif %} role="main">
 
   <div class="single-column blog-index">
+		<section class="search">
+			<h2>Explore the blog</h2>
+			<p>I've been writing about web development since 2012. To date, there are
+      <strong>{{ site.posts | size }} posts</strong> ranging from Elixir and
+      Ruby on Rails to Linux server configuration. If you're interested in a
+      particular topic, check out the <a href="{{ '/tags' | prepend:
+      site.baseurl }}">tags section</a> or search for a topic below:</p>
+			<div class="search__container">
+				<input class="search__input" id="search-text" name="search" placeholder="Search the blog" type="text">
+				<input class="search__button" id="search-button" name="google-search-name" type="submit" value="Search">
+			</div>
+			<gcse:searchresults-only gname="searchOnlyCSE" linktarget="_parent"></gcse:searchresults-only>
+		</section>
     <section class="summary">
       <ul class="summary__list summary-list">
         {% for post in paginator.posts %}

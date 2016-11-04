@@ -1,0 +1,29 @@
+/// All important styles added to override Google's injected styles
+
+.gsc-control-cse {
+  height: 0 !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.gsc-results-wrapper-overlay {
+  &.gsc-results-wrapper-visible {
+    background: $body-bg;
+    color: $text-color;
+    font-family: $font-family-sans-serif;
+    font-size: $font-size-base * .875;
+    line-height: 1.5 !important;
+  }
+
+  .gs-title {
+    font-weight: bold;
+    height: initial !important;
+    font-size: 1.15rem !important;
+    text-decoration: none !important;
+  }
+
+  .gs-image {
+    margin: 0 auto;
+  }
+}
