@@ -10,7 +10,7 @@ $(function() {
       var searchText = $("#search-text").val();
       var element    = google.search.cse.element.getElement("searchOnlyCSE");
       element.execute(searchText);
-      dataLayer.push({'event': 'searchSubmitted', 'formName': 'search'});
+      dataLayer.push({'event': 'searchSubmitted', 'formName': 'search', 'searchText': searchtext});
     });
 
     $("#search-text").on('keyup', function(e) {
@@ -18,7 +18,7 @@ $(function() {
         var searchText = $("#search-text").val();
         var element    = google.search.cse.element.getElement("searchOnlyCSE");
         element.execute(searchText);
-        dataLayer.push({'event': 'searchSubmitted', 'formName': 'search'});
+        dataLayer.push({'event': 'searchSubmitted', 'formName': 'search', 'searchText': searchText});
       }
     });
   }
