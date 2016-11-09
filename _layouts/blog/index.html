@@ -3,6 +3,8 @@
 <main{% if page.slug %} class="{{ page.slug }}"{% elsif page.title %} class="{{ page.title | slugify }}"{% endif %} role="main">
 
   <div class="single-column blog-index">
+
+    {% if paginator.page == 1 %}
 		<section class="search">
 			<h2>Explore the blog</h2>
 			<p>I've been writing about web development since 2012. To date, there are
@@ -17,6 +19,8 @@
 			<gcse:searchresults-only gname="searchOnlyCSE" linktarget="_parent"
       resultsUrl="{{ '/blog' | prepend: site.baseurl }}" queryParameterName="q"></gcse:searchresults-only>
 		</section>
+    {% endif %}
+
     <section class="summary">
       <ul class="summary__list summary-list">
         {% for post in paginator.posts %}

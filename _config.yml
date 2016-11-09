@@ -33,7 +33,8 @@ defaults:
     values:
       layout: "default"
       tags: []
-      author: Daniel Strunk
+      author: "Daniel Strunk"
+      custom_js: [disqus.js]
 
 # gems
 gems:
