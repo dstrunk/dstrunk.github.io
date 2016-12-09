@@ -5,6 +5,9 @@
           <h3 class="navigation-group__title">Work</h3>
           <ul class="navigation-group__list">
             <li><a href="{{ site.baseurl }}/work/#open-source">Open Source</a></li>
+            {% for post in site.work %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
           </ul>
         </li>
         <li class="navigation-group">

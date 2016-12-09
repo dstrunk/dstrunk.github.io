@@ -45,3 +45,6 @@ gems:
 
 # GitHub
 repository: dstrunk/dstrunk.github.io
+
+# Exclude
+exclude: [tags]
