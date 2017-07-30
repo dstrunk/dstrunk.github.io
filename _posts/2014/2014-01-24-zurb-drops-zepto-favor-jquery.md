@@ -2,6 +2,7 @@
 layout: blog/show
 title: ZURB drops Zepto in favor of jQuery
 tags: [javascript]
+category: JavaScript
 ---
 
 [ZURB](http://zurb.com "ZURB"), the creators of the popular front-end responsive framework [Foundation](http://foundation.zurb.com "ZURB - Foundation"), recently announced that they dropped [Zepto](http://zeptojs.com "ZeptoJS") in favor of [jQuery 2](http://jquery.com "jQuery"). Longtime readers might remember a [certain post](http://wp.me/p3ERzH-2m "Daniel Strunk - Is Zepto still relevant?") where I posited that, with jQuery's 2.x versions dropping support of older browsers, Zepto might prove to be irrelevant. It seems that my propositions were perhaps correct, for more reasons than one. In their blog post, ZURB details how they realized that Zepto's lighter file size didn't necessarily translate to better performance. Other notable considerations for ZURB's choice to switch over to jQuery: better industry acceptance,  better documentation and better overall support. So what does that translate to? Another nail in the coffin for Zepto? I don't think so, not necessarily. Zepto could remain a powerful contender for mobile JavaScript framework. Personally, however, I don't see the need for Zepto. My reasoning:

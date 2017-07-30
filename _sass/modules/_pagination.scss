@@ -1,5 +1,6 @@
 .pagination {
   @include clearfix;
+  padding: 0 1.25rem;
 
   &__link {
     @include clearfix;

@@ -2,6 +2,7 @@
 layout: blog/show
 title: Get moving in Emacs as a Vim user
 tags: [workflow, emacs]
+category: Editor
 description: Learn basic chords for moving around in Emacs
 ---
 

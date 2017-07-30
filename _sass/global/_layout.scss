@@ -52,11 +52,25 @@
   padding: 6rem 0;
 
   @media screen and (max-width: 726px) {
-    padding: 6rem 3rem 3rem 3rem;
+    padding: 6rem 3rem 3rem;
   }
 
   @media screen and (max-width: 480px) {
-    padding: 3rem 0.75rem 1.5rem 0.75rem;
+    padding: 3rem .75rem 1.5rem;
+  }
+
+  &.blog-index {
+    margin: 0 auto;
+    max-width: rem(1040px);
+    width: 100%;
+
+    @media screen and (max-width: 726px) {
+      padding: 6rem 0 3rem;
+    }
+
+    @media screen and (max-width: 480px) {
+      padding: 3rem 0 1.5rem;
+    }
   }
 }
 

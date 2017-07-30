@@ -2,6 +2,7 @@
 layout: blog/show
 title: '"references" vs "belongs_to" in ActiveRecord migrations'
 tags: [ruby, rails]
+category: Ruby
 ---
 I always wondered about the difference between `:belongs_to` vs `:references` when running ActiveRecord migrations, always chalking it up to a quirk in the framework. They do the same thing, right? Well yes, they do **exactly** the same thing, as a matter of fact; take a look at the Rails source:
 

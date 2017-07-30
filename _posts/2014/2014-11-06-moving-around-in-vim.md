@@ -2,6 +2,7 @@
 layout: blog/show
 title: Moving around in Vim
 tags: [workflow, vim]
+category: Editor
 ---
 Happy Friday! Today I'll touch on a major pain point for people first starting to learn Vim: navigating file structures! Let's get started.
 

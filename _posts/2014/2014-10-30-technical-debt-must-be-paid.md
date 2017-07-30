@@ -2,6 +2,7 @@
 layout: blog/show
 title: Technical debt must be paid
 tags: [misc]
+category: General
 ---
 > [Rebuilding the Shopify Admin: Improving Developer Productivity by Deleting 28,000 Lines of Javascript](http://www.shopify.com/technology/15646068-rebuilding-the-shopify-admin-improving-developer-productivity-by-deleting-28-000-lines-of-javascript)
 

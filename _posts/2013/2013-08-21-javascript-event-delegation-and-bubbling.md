@@ -2,6 +2,7 @@
 layout: blog/show
 title: JavaScript event delegation and bubbling
 tags: [javascript]
+category: JavaScript
 ---
 
 I like to periodically read through this [github repository](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions "GitHub - Darcyclarke - Front-end Developer Interview Questions") to make sure my front end developer chops are up to snuff. I ran across one talking about event delegation, and couldn't quite answer it. Being self-taught from the jQuery to JavaScript camp, I always handled event delegation via the jQuery-handy **.on** method. (A quick example: `$('.object').on('click', '.child-element', function() {});`) But I didn't really know how it worked, or why it was considered a best practice. So, to the internet!

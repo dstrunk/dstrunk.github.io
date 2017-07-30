@@ -34,11 +34,14 @@ $link-focus-color:   lighten($link-color, 20%) !default;
 $border-radius:      5px !default;
 $highlight-color:    $crimson !default;
 
+$text-color-light: lighten($text-color, 10%);
+$text-color-lighter: lighten($text-color, 20%);
+$text-color-lightest: lighten($text-color, 30%);
 
 /// Typography
 ///
 ///
-$font-family-sans-serif: 'freight-sans-pro', sans-serif !default;
+$font-family-sans-serif: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif !default;
 $font-family-serif:      Georgia, 'Times New Roman', Times, serif !default;
 $font-family-monospace:  Menlo, Monaco, Consolas, 'Courier New', monospace !default;
 $font-family-base:       $font-family-sans-serif !default;

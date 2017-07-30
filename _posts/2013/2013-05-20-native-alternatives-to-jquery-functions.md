@@ -2,6 +2,7 @@
 layout: blog/show
 title: Native alternatives to jQuery functions
 tags: [javascript]
+category: JavaScript
 ---
 
 [http://www.leebrimelow.com/native-methods-jquery/](http://www.leebrimelow.com/native-methods-jquery/ "Native equivalents of jQuery functions")

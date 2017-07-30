@@ -2,6 +2,7 @@
 layout: blog/show
 title: 'Monstra: a flat-file CMS'
 tags: [php]
+category: PHP
 ---
 
 I can't seem to get enough of these flat-file CMSes lately! While I enjoy WordPress development, I think we can all agree that WordPress can be overkill for many clients' needs. To that end, I've been playing around with a new flat-file PHP CMS I found recently, called [Monstra CMS](http://monstra.org/ "Monstra CMS").* *<small>Just because I haven't played around with a ton of flat-file CMSes lately ([Stacey](http://www.staceyapp.com/ "Stacey") and [Kirby](http://getkirby.com/ "Kirby") are the only ones I'm truly familiar with), you may see comparisons to them.</small>

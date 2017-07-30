@@ -2,6 +2,7 @@
 layout: blog/show
 title: 'Link: Persistence Pays Off'
 tags: [misc]
+category: General
 ---
 
 [http://stemmings.com/persistence-pays-off/](http://stemmings.com/persistence-pays-off/ "Stemmings - Persistence Pays Off")

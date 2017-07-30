@@ -2,6 +2,7 @@
 layout: blog/show
 title: CSS variables land support in Firefox 31
 tags: [css]
+category: CSS
 ---
 
 Firefox 31 was recently released on July 22, 2014. It's largely bug fixes and minor tweaks, but one mildly interesting development is their addition of support for native CSS variables without enabling experimental features. If you're in the 15% of web developers that have yet to adopt [Sass](http://sass-lang.com), [Less](http://lesscss.org/), or [Stylus](http://learnboost.github.io/stylus/), this might be exciting news for you! Read on for more.

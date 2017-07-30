@@ -1,0 +1,30 @@
+general:
+  name: General
+  image: '/img/shared/general.jpg'
+php:
+  name: PHP
+  image: '/img/shared/php.jpg'
+javascript:
+  name: JavaScript
+  image: '/img/shared/javascript.jpg'
+git:
+  name: Git
+  image: '/img/shared/git.jpg'
+editor:
+  name: Editor
+  image: '/img/shared/editor.jpg'
+elixir:
+  name: Elixir
+  image: '/img/shared/elixir.jpg'
+css:
+	name: CSS
+	image: '/img/shared/css-html.jpg'
+ruby:
+	name: Ruby
+	image: '/img/shared/ruby.jpg'
+devops:
+	name: DevOps
+	image: '/img/shared/devops.jpg'
+html:
+	name: HTML
+	image: 'img/shared/css-html.jpg'

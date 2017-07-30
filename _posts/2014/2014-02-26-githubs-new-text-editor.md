@@ -2,6 +2,7 @@
 layout: blog/show
 title: Github's new text editor
 tags: [misc]
+category: Editor
 ---
 
 Details are scant at this point in time, but it looks like [Github's](http://github.com/) looking to release a text editor very soon. I was tipped off by a tweet by Addy Osmani earlier this morning:

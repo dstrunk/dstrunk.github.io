@@ -2,6 +2,7 @@
 layout: blog/show
 title: Intro to JavaScript Source Maps
 tags: [javascript]
+category: JavaScript
 ---
 
 [http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/ "Intro to JavaScript Source Maps")

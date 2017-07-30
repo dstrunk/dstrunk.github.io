@@ -3,7 +3,14 @@
 // global skin styles - gradients, colors, box-shadows, etc.
 
 %box-shadow {
-  box-shadow: 0 0 8px transparentize($link-water, 0.4);
+  box-shadow: 0 0 8px transparentize($link-water, .4);
+  transition: all .5s ease;
+
+  &:hover {
+    box-shadow: 8px 14px 38px transparentize($link-water, .6),
+      1px 3px 8px transparentize($link-water, .3);
+    transform: translateY(-5px);
+  }
 }
 
 %border-radius {

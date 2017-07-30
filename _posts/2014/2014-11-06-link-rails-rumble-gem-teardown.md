@@ -2,6 +2,7 @@
 layout: blog/show
 title: 'Link: Rails Rumble Gem Teardown'
 tags: [ruby, rails]
+category: Ruby
 ---
 > [Rails Rumble Gem Teardown](https://www.dwellable.com/blog/Rails-Rumble-Gem-Teardown)
 

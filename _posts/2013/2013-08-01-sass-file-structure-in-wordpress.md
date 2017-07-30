@@ -2,6 +2,7 @@
 layout: blog/show
 title: Sass file structure in WordPress
 tags: [sass, css, wordpress, workflow]
+category: CSS
 ---
 
 There are many ways people choose to create their Sass file structure, and it's usually dependent on the environment the developer is comfortable with (Ruby,etc). Because I primarily work with WordPress, I thought it made sense to use a similar Sass file structure as is used in WordPress themes.  In my root sass folder, I only have one Sass source file, which imports all of my other files and serves as a primary entry point. Here's my file structure:

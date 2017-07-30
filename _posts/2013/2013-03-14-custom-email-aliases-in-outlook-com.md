@@ -2,6 +2,7 @@
 layout: blog/show
 title: custom email aliases in Outlook.com
 tags: [misc]
+category: General
 ---
 
 **Update October 2013**: This little trick is no longer necessary. It looks like Microsoft has added the option to add an existing email address as a Microsoft account alias, which is what this hack was getting at. Now, to use your domain, you will simply select the radio button "Add an existing email address as a Microsoft account alias," then fill in your desired email address. I recently got an email address with Outlook.com. Why? No reason, really, except to reserve my name for my email address. Call me vain, but if I ever DID decide to switch from gmail to outlook, I'd rather have a **dstrunk (at) outlook (dot) com** email address vs **XXdstrunk011986@outlook.com**. Anyway; I wanted to add my domain alias to outlook, so emails that are sent via my dstrunk.com portfolio site are forwarded to my outlook account. Problem is, the only options available for creating aliases are Microsoft's domains: **outlook.com**, **hotmail.com** or **live.com**. I didn't want **any** of those! So, I figured I'd try to add an option in the select box and submit the added data. This next bit assumes you're using either Chrome or Firefox (both of which have fabulous web developer toolkits baked in).

@@ -2,6 +2,7 @@
 layout: blog/show
 title: Automating CSV parsing with Ruby
 tags: [ruby]
+category: Ruby
 ---
 Part of my day job involves designing and sending out email campaigns for various customers. On the whole it's a pretty painless job, with one sticking point: getting a properly sanitized email list of subscribers is hard. Depending on the client supplying the spreadsheet, any number of things could go wrong:
 
