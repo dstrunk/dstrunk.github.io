@@ -2,6 +2,7 @@
 layout: blog/show
 title: Stylus - long live the king
 tags: [workflow, css]
+category: CSS
 ---
 
 ## Once upon a time...

@@ -1,7 +1,8 @@
 ---
 layout: blog/show
-title: Automatic deployments with git on shared hosting
+title: Auto deploy with git
 tags: [git, workflow]
+category: PHP
 description: Using git hooks to automatically deploy sites
 date: 2017-01-23 13:30:30 0500
 ---

@@ -2,6 +2,7 @@
 layout: blog/show
 title: asdf version manager
 tags: [workflow]
+category: General
 description: Use asdf to manage different versions of every language you know
 date: 2016-11-25 14:00:00 -0500
 ---

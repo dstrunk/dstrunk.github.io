@@ -2,6 +2,7 @@
 layout: blog/show
 title: 'Semantic grids: scaffolding sites beautifully'
 tags: [css]
+category: CSS
 ---
 If you're a front-end developer and you're still rolling your own custom sites every time you need to create a new site, you're wasting your time. There are tons of frameworks—[Twitter Bootstrap](http://twitter.github.io/bootstrap/ "Twitter Bootstrap"), [Zurb Foundation](http://foundation.zurb.com/ "Foundation"), and more—that have been developed over the last couple of years that will vastly speed up development time, allowing developers more time to focus on the UI/UX of a product rather than stressing over the scaffolding. That said, these frameworks are not without their shortcomings. The most glaring issue with almost all of these blueprints is their dependence on nested divs or presentation classes to control content. "But how else could we allow for responsive designs while easily maintaining our rapid prototypes?" You might ask. Enter **Bourbon**, and its semantic grid framework** Neat**.
 

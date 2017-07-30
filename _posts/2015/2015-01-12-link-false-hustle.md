@@ -2,6 +2,7 @@
 layout: blog/show
 title: 'Link: False Hustle'
 tags: [misc]
+category: General
 ---
 
 http://jeffarchibald.ca/false-hustle/

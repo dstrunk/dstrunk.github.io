@@ -2,6 +2,7 @@
 layout: blog/show
 title: Cleaning up nested forms with form objects in Rails 4
 tags: [ruby, rails]
+category: Ruby
 ---
 
 It's a big day today... Apple's September 9th event, this blog's 100th post, and perhaps most importantly, my dog Carl's birthday! To celebrate, we'll be talking about cleaning up nested forms in Rails with **form objects**.

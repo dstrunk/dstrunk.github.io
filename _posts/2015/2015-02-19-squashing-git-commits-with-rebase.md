@@ -2,6 +2,7 @@
 layout: blog/show
 title: Squashing git commits with rebase
 tags: [git]
+category: Git
 ---
 The prevailing mantra with git, or any version control system for that matter, is "commit early, commit often." For the last year, I've been doing so, which is a Good Thing. And if I were to continue working as a team of one developer, that might be fine. But if you're looking to commit to an open source project like I am, you'll probably want to learn how to clean up your git commits so entries don't include "forgot to add file" or "stupid mistake". That's where squashing comes in.
 

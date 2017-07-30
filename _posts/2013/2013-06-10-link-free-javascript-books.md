@@ -2,6 +2,7 @@
 layout: blog/show
 title: 'Link: Free JavaScript Books'
 tags: [misc, javascript]
+category: JavaScript
 ---
 
 [http://jsbooks.revolunet.com/](http://jsbooks.revolunet.com/ "JSBooks")

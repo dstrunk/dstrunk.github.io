@@ -2,6 +2,7 @@
 layout: blog/show
 title: Variable scope and get_template_part
 tags: [php]
+category: PHP
 ---
 
 In developing my company's website, I'm attempting to be as modular as possible. Following this methodology, I'm making heavy use of `get_template_part` to abstract out the WordPress loop and make downstream changes to code easier to understand. Recently, however, I ran into an issue with attempting to use a global variable with `get_template_part`. The issue is pretty easy to understand, and is more a PHP deal than a WordPress one: variable scope. Variables are *mostly* global in PHP; variables defined can be referenced most anywhere else, including `required` or `included` files. However, user-defined functions have their own local function scope. Any variable used in that function is limited to that function only. Here's an example:

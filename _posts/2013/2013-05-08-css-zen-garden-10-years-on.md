@@ -2,6 +2,7 @@
 layout: blog/show
 title: CSS Zen Garden - 10 Years On
 tags: [css]
+category: CSS
 ---
 
 [http://mezzoblue.com/archives/2013/05/07/10_years/](http://mezzoblue.com/archives/2013/05/07/10_years/ "CSS Zen Garden - 10 Years Old")

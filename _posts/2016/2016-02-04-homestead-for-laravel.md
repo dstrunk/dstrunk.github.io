@@ -1,7 +1,8 @@
 ---
 layout: blog/show
-title: Setting up Homestead for Laravel development
+title: Homestead for Laravel development
 tags: [php]
+category: DevOps
 description: Setting up Homestead for Laravel development
 ---
 

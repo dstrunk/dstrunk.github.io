@@ -2,6 +2,7 @@
 layout: blog/show
 title: Setting up multiple server blocks in nginx
 tags: [nginx]
+category: DevOps
 ---
 One of the good (and bad) things about moving from shared hosting to a VPS is that I have full control over server settings. It might feel a little intimidating, but it's a much more rewarding experience when everything is working properly.
 

@@ -4,51 +4,41 @@
 
   <div class="single-column blog-index">
 
-    {% if paginator.page == 1 %}
-		<section class="search">
-			<h2>Explore the blog</h2>
-			<p>I've been writing about web development since 2012. To date, there are
-      <strong>{{ site.posts | size }} posts</strong> ranging from Elixir and
-      Ruby on Rails to Linux server configuration. If you're interested in a
-      particular topic, check out the <a href="{{ '/tags' | prepend:
-      site.baseurl }}">tags section</a> or search for a topic below:</p>
-			<div class="search__container">
-				<input class="search__input" id="search-text" name="search" placeholder="Search the blog" type="text">
-				<input class="search__button" id="search-button" name="google-search-name" type="submit" value="Search">
-			</div>
-			<gcse:searchresults-only gname="searchOnlyCSE" linktarget="_parent"
-      resultsUrl="{{ '/blog' | prepend: site.baseurl }}" queryParameterName="q"></gcse:searchresults-only>
-		</section>
-    {% endif %}
-
     <section class="summary">
-      <ul class="summary__list summary-list">
+      <div class="summary__list summary-list">
         {% for post in paginator.posts %}
-        <li class="summary-list__item">
-          <header class="summary-list__header">
-            <a href="{{ post.url }}">
-              <h2 class="summary-list__title">{{ post.title }}</h2>
-            </a>
+          {% assign cat = post.category | downcase %}
+          {% assign category = site.data.category.categories[cat] %}
+          {% if post.image %}
+            {% assign image = post.image %}
+          {% else %}
+            {% assign image = category.image %}
+          {% endif %}
 
-            {% if post.tags %}
-            <p class="summary-list__categories">{{ post.tags | join: ', ' }}</p>
-            {% endif %}
+          <a class="summary-list__link summary-list__item" href="{{ post.url }}">
+            <div class="summary-list__image-container">
 
-            {% if post.description %}
-            <h3 class="summary-list__description">{{ post.description }}</h3>
-            {% endif %}
-            
-            <p class="summary-list__date">{{ post.date | date: "%B %d, %Y" }}</p>
+              <div class="summary-list__image{% if post.category %} summary-list__image--{{
+                  post.category | downcase }}{% endif %}"
+                style="background-image:
+                url({{ image }});"></div>
+            </div>
 
-          </header>
-          <p class="summary-list__excerpt">
-            {{ post.content | strip_html | truncatewords: 50 }}
-          </p>
+            <div class="summary-list__content">
+              <header class="summary-list__header">
+                {% if post.tags %}
+                  <p class="summary-list__categories">{{ post.tags | join: ', ' }}</p>
+                {% endif %}
+                <h2 class="summary-list__title">{{ post.title }}</h2>
+              </header>
 
-          <a class="summary-list__more-link" href="{{ post.url }}">Read more</a>
-        </li>
+              <p class="summary-list__excerpt">
+                {{ post.content | strip_html | truncatewords: 15 }}
+              </p>
+            </div>
+          </a>
         {% endfor %}
-      </ul> 
+      </div> 
     </section>
 
     {% if paginator.total_pages > 1 %}

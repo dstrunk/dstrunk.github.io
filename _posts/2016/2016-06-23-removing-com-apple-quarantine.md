@@ -1,7 +1,8 @@
 ---
 layout: blog/show
-title: Removing com.apple.quarantine from a file or directory
+title: Removing com.apple.quarantine
 tags: [mac]
+category: General
 description: Troubleshooting weirdly specific mac permissions issues
 ---
 

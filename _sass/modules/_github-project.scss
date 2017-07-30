@@ -11,6 +11,10 @@ $languages: (viml: #199f4b,
        elixir: #6b487b);
 
 .github-projects {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
   margin-top: 3rem;
   padding: 0;
 
@@ -20,13 +24,14 @@ $languages: (viml: #199f4b,
   }
 
   li {
-    @include span-columns(12);
+    font-size: .875rem;
     padding-left: 0;
-    font-size: 0.875rem;
+    width: 100%;
 
     @media screen and (min-width: 870px) {
-      @include span-columns(6);
-      @include omega(2n);
+      display: flex;
+      flex: 1 1 calc(50% - 1rem);
+      margin: 0 1rem 0 0;
     }
   }
 }

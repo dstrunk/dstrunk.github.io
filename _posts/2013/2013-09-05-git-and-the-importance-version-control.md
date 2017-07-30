@@ -2,6 +2,7 @@
 layout: blog/show
 title: Git and the importance of version control
 tags: [git]
+category: Git
 ---
 
 Version control is a glorious thing. Let's run through a scenario:

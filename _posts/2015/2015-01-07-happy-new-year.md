@@ -2,6 +2,7 @@
 layout: blog/show
 title: Happy new year!
 tags: [misc]
+category: General
 ---
 Hey everyone! It's a little late, but Happy New Year. Nothing too technical in this post, but I'd like to go over some of my goals for the new year.
 

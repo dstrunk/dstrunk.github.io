@@ -2,6 +2,7 @@
 layout: blog/show
 title: Search and replace across files in Vim
 tags: [workflow, vim]
+category: Editor
 description: Using buffers to search and replace across your project in Vim
 date: 2017-01-09 1:30:00 -0500
 ---

@@ -2,6 +2,7 @@
 layout: blog/show
 title: Github dotfiles
 tags: [git, dotfiles]
+category: General
 ---
 
 I work across a couple of computers for development; a Mac Pro at work, and a Macbook Air at home. For the most part, I've kept my development environments similar, but I recently ran into a problem where my work computer died and I needed to transfer everything to a new Mac Pro. Enter [GitHub dotfiles](http://dotfiles.github.com/).

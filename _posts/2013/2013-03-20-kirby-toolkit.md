@@ -2,6 +2,7 @@
 layout: blog/show
 title: Kirby Toolkit
 tags: [php]
+category: PHP
 ---
 
 [http://toolkit.getkirby.com/](http://toolkit.getkirby.com/ "Kirby Toolkit")

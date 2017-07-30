@@ -2,6 +2,7 @@
 layout: blog/show
 title: 'Link: My favorite things about Rails 4.1'
 tags: [ruby, rails]
+category: Ruby
 ---
 
 This one's a two-fer—comprising interesting features rolling out with Rails 4.1. Though it's a relatively minor release, there are some great details rolling through the pipeline. These guys do a great job detailing the release, so without further ado:

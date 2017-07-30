@@ -1,7 +1,8 @@
 ---
 layout: blog/show
-title: Pushing to a remote branch with a different name
+title: A branch by any other name
 tags: [git]
+category: Git
 description: How to push to a remote branch with a different name than your local branch
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: blog/show
-title: My old friend, vim; or, there and back again
+title: My old friend, Vim
 tags: [workflow, vim, tmux]
+category: Editor
 description: Switching back to vim after a brief affair with emacs...
 ---
 

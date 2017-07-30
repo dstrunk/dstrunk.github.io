@@ -1,8 +1,10 @@
 ---
 layout: blog/show
-title: Flynn + DigitalOcean for easily running applications
+title: Flynn + DigitalOcean
 tags: [workflow]
+category: DevOps
 description: Configure a platform for running apps in seconds on your own servers using Flynn
+image: /img/posts/2016-10-20-flynn-for-running-applications/cloud.jpg
 date: 2016-10-20 13:30:00 -0500
 ---
 

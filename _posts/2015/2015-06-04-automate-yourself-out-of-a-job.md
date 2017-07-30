@@ -2,6 +2,7 @@
 layout: blog/show
 title: Automate yourself out of a job
 tags: [misc]
+category: General
 ---
 Recently somebody at work came to me with a scenario:
 

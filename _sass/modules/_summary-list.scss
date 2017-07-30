@@ -1,4 +1,7 @@
 .summary-list {
+  $this: &;
+  display: flex;
+  flex-wrap: wrap;
   padding: 0;
 
   &--work {
@@ -8,23 +11,41 @@
     }
   }
 
-  &__header {
-    &::after {
-      content: "\2014";
-      display: block;
-      font-size: 1rem;
-      font-style: italic;
-      font-weight: 500;
-    }
-  }
-
   &__item {
+    @extend %border-radius;
+    @extend %box-shadow;
+    background: #fff center center;
+    display: flex;
+    flex: 1 1 rem(300px);
+    flex-direction: column;
+    margin: 0 rem(20px) rem(40px);
+    overflow: hidden;
     padding: 0;
-    margin-bottom: 5rem;
+
+    @media screen and (min-width: 870px) {
+      &:nth-child(6n + 1):not(&--work) {
+        flex: 1 1 100%;
+        flex-direction: row;
+      }
+
+      &:nth-child(6n + 1):not(&--work) #{$this}__image-container {
+        flex: 1 1 auto;
+        position: relative;
+      }
+
+      &:nth-child(6n + 1):not(&--work) #{$this}__image {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+
+      &:nth-child(6n + 1):not(&--work) #{$this}__content {
+        flex: 0 1 rem(357px);
+        padding: rem(30px) rem(40px);
+      }
+    }
 
     &--work {
-      @extend %border-radius;
-      @extend %box-shadow;
       @include span-columns(12);
 
       background: #fff; 
@@ -38,40 +59,45 @@
     }
   }
 
-  &__link {
+  &__image-container {
+    flex: 1 1 auto;
+  }
+
+  &__image {
+    background: #c5d2d9 no-repeat 50%;
+    background-size: cover;
+    height: 200px;
+    width: auto;
+  }
+
+  &__content {
+    display: flex;
+    flex: 0 1 rem(250px);
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: top;
+    padding: rem(15px) rem(20px);
+  }
+
+  &__excerpt {
+    margin: rem(15px) 0;
+  }
+
+  &__categories {
+    color: $text-color-lightest;
+    font-size: .7rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0 0 rem(5px);
+    text-transform: uppercase;
   }
 
   &__title {
     color: $header-color;
-    font-size: 2rem;
-    line-height: 1.9rem;
-    margin-bottom: 0.25rem;
+    font-size: 1.5rem;
+    margin-bottom: .6rem;
+    line-height: 1.85rem;
+    margin-bottom: .25rem;
     margin-top: 0;
-  }
-
-  &__categories {
-    color: $highlight-color;
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin: 0;
-    text-transform: uppercase;
-  }
-
-  &__description {
-    font-size: 1rem;
-    font-style: italic;
-    font-weight: 500;
-    margin-bottom: 0;
-  }
-
-  &__date {
-    font-size: 80%;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-
-  &__more-link {
   }
 }

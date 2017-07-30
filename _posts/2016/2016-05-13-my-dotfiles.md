@@ -2,6 +2,7 @@
 layout: blog/show
 title: My dotfiles
 tags: [dotfiles]
+category: General
 description: Using dotfiles to maintain parity between workstations
 ---
 
