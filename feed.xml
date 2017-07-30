@@ -12,6 +12,13 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:10 %}
+        {% assign cat = post.category | downcase %}
+        {% assign category = site.data.category.categories[cat] %}
+        {% if post.image %}
+            {% assign image = post.image %}
+        {% else %}
+            {% assign image = category.image %}
+        {% endif %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html | xml_escape }}{% endif %}</description>
@@ -24,6 +31,11 @@ layout: null
         {% for cat in post.categories %}
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
+        <image>
+            <url>{{ image | prepend: site.baseurl | prepend: site.url }}</url>
+            <title>Image for post: {{ post.title | xml_escape }}</title>
+            <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        </image>
       </item>
     {% endfor %}
   </channel>
