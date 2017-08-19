@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/dstrunk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://danielstrunk.me
+  * I am dstrunk (https://keybase.io/dstrunk) on keybase.
+  * I have a public key ASDsdFo9vuAKWL2EoMqMuIKBiQ6OwaElyA0KuWCsqYaIWgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101dd87167566273471863f92e81594207e9649782df48d4027dc368bd77506051b0a",
+      "host": "keybase.io",
+      "kid": "0120ec745a3dbee00a58bd84a0ca8cb88281890e8ec1a125c80d0ab960aca986885a0a",
+      "uid": "e986295ac0e0ba4b3bfc4662c155e819",
+      "username": "dstrunk"
+    },
+    "merkle_root": {
+      "ctime": 1503115149,
+      "hash": "f7e93b0bcb263c0e8266df978ef13c9ce644de4a255bfd299b18b9acf523ae3159c05ae2944d8fde4da7112d58e2c3bcbcd2d6e9ac6c8127238b079a65d6b8ef",
+      "hash_meta": "3340438f437f5ec3842e4e13fbcc03b0866e7ce80e681b0130acb9ebc64983ce",
+      "seqno": 1335149
+    },
+    "service": {
+      "hostname": "danielstrunk.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.28"
+  },
+  "ctime": 1503115175,
+  "expire_in": 504576000,
+  "prev": "4e44d8db06af3d25ab4de833df04c7fb284e821cd5aa87b84ca69ecdb0f56c42",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7HRaPb7gCli9hKDKjLiCgYkOjsGhJcgNCrlgrKmGiFoKp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZGQ4NzE2NzU2NjI3MzQ3MTg2M2Y5MmU4MTU5NDIwN2U5NjQ5NzgyZGY0OGQ0MDI3ZGMzNjhiZDc3NTA2MDUxYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWM3NDVhM2RiZWUwMGE1OGJkODRhMGNhOGNiODgyODE4OTBlOGVjMWExMjVjODBkMGFiOTYwYWNhOTg2ODg1YTBhIiwidWlkIjoiZTk4NjI5NWFjMGUwYmE0YjNiZmM0NjYyYzE1NWU4MTkiLCJ1c2VybmFtZSI6ImRzdHJ1bmsifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDMxMTUxNDksImhhc2giOiJmN2U5M2IwYmNiMjYzYzBlODI2NmRmOTc4ZWYxM2M5Y2U2NDRkZTRhMjU1YmZkMjk5YjE4YjlhY2Y1MjNhZTMxNTljMDVhZTI5NDRkOGZkZTRkYTcxMTJkNThlMmMzYmNiY2QyZDZlOWFjNmM4MTI3MjM4YjA3OWE2NWQ2YjhlZiIsImhhc2hfbWV0YSI6IjMzNDA0MzhmNDM3ZjVlYzM4NDJlNGUxM2ZiY2MwM2IwODY2ZTdjZTgwZTY4MWIwMTMwYWNiOWViYzY0OTgzY2UiLCJzZXFubyI6MTMzNTE0OX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJkYW5pZWxzdHJ1bmsubWUiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI4In0sImN0aW1lIjoxNTAzMTE1MTc1LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjRlNDRkOGRiMDZhZjNkMjVhYjRkZTgzM2RmMDRjN2ZiMjg0ZTgyMWNkNWFhODdiODRjYTY5ZWNkYjBmNTZjNDIiLCJzZXFubyI6MTIsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA2rQ6HODKXfDSsVhw7ZY7hkR91LlCdePS09tMpNJSJsBpssE9Esbjib/VX+C1+GXuv//p8gwd1CxTvX3hoB1kCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAuRbNolPVGAXy1NYo4oXJPrxNNesnLafI3P/fSibRmwo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dstrunk
+
+==================================================================
