@@ -16,7 +16,7 @@ page.title | slugify }}"{% endif %} role="main">
   </div>
 </main>
 
-{% if page.previous.url && page.next.url %}
+{% if page.previous.url and page.next.url %}
 <nav id="pagination" class="pagination pagination__static">
 	{% if page.previous.url %}
 	<a class="pagination__static--left hidden" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">
