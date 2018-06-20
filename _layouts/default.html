@@ -1,9 +1,0 @@
-{% include header.html %}
-
-<main{% if page.slug %} class="{{ page.slug }}"{% elsif page.title %} class="{{ page.title | slugify }}"{% endif %} role="main">
-	<div class="single-column">
-		{{ content }}
-	</div>
-</main>
-
-{% include footer.html %}

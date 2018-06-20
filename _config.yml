@@ -5,36 +5,22 @@ kramdown:
   hard_wrap: false
 
 # Site settings
-permalink: /blog/:year/:month/:day/:title/
-paginate: 9
-paginate_path: /blog/page/:num/
+permalink: /til/:year/:title/
+paginate: 5
+paginate_path: /til/page/:num/
 exclude: ["node_modules", "vendor"]
 sass:
   style: compressed
 
 # Site info
 url: http://danielstrunk.me
-title: Daniel Strunk web development and design
+title: Daniel Strunk
 
 # Collections
 collections:
-  work:
+  projects:
     output: true
-    permalink: /work/:title/
-  reference:
-    output: true
-    permalink: /reference/:title/
-
-# Default variables
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-      tags: []
-      author: "Daniel Strunk"
-      custom_js: [disqus.js]
+    permalink: /projects/:title/
 
 # gems
 gems:

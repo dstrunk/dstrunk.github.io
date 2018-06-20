@@ -1,5 +1,0 @@
-{
-  "_posts/*.md": {
-    "type": "post",
-    "template": ["---\nlayout: blog/show\ntitle: %s\ntags: []\ndescription:\ndate:20XX-XX-XX 13:XX:XX 0500\n---"] }
-}
