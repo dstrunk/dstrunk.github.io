@@ -1,0 +1,109 @@
+body {
+  @apply font-sans;
+  @apply text-lg;
+  @apply leading-normal;
+  @apply text-grey-darkest;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  @apply font-serif;
+  @apply text-grey-darkest;
+}
+
+h1,
+.h1 {
+  @apply text-3xl;
+  @apply mb-4;
+}
+
+h2,
+.h2 {
+  @apply text-2xl;
+  @apply mb-4;
+}
+
+h3,
+.h3 {
+  @apply text-xl;
+  @apply mb-2;
+  @apply text-grey-darker;
+}
+
+h4,
+.h4 {
+  @apply text-lg;
+  @apply mb-2;
+}
+
+time,
+.time,
+.category {
+  @apply text-grey-dark;
+  @apply block;
+  @apply mb-2;
+  @apply uppercase;
+  @apply tracking-wide;
+  @apply text-xs;
+  @apply font-bold;
+  @apply font-sans;
+
+  & time,
+  & .time {
+    @apply inline;
+    @apply mb-0;
+  }
+}
+
+p {
+  @apply mb-6;
+}
+
+ul,
+ol,
+dl {
+  @apply mb-6;
+  @apply pl-4;
+}
+
+li {
+  @apply mb-6;
+}
+
+li > ul,
+li > ol,
+li > dl {
+  @apply mt-6;
+}
+
+a {
+  @apply no-underline;
+  @apply text-indigo;
+  @apply font-bold;
+
+  & h1, & h2, & h3, & h4, & h5, & h6,
+  & .h1, & .h2, & .h3, & .h4, & .h5, & .h6 {
+    @apply no-underline;
+    @apply text-indigo;
+  }
+}
+
+pre,
+code {
+  @apply m-0;
+  @apply p-0;
+}
+
+pre {
+  @apply border;
+  @apply border-l-4;
+  @apply my-6;
+  @apply px-4;
+  @apply pt-2;
+  @apply pb-3;
+}
+
+code {
+  @apply font-bold;
+  @apply text-sm;
+}

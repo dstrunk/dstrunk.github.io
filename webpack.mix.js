@@ -16,14 +16,16 @@ class TailwindExtractor {
 
 mix.setPublicPath('assets')
     .js('_resources/js/app.js', 'js/')
+    .extract(['turbolinks'])
     .less('_resources/less/app.less', 'css/')
     .options({
         postCss: [
             tailwindcss('./tailwind.js'),
         ]
     })
+    .copy('_resources/img', 'assets/img')
     .browserSync({
-        browser: 'Google Chrome',
+        browser: 'Safari',
         proxy: false,
         server: {
             baseDir: '_site/',

@@ -1,0 +1,74 @@
+bio:
+  name: Daniel Strunk
+  email: daniel@strunk.me
+  title: Developer
+  website: https://danielstrunk.me
+  summary: >
+social:
+  -
+    name: Twitter
+    url: https://twitter.com/dstrunk
+  -
+    name: GitHub
+    url: https://github.com/dstrunk
+  -
+    name: LinkedIn
+    url: https://github.com/in/dstrunk
+work:
+  -
+    name: WC Bradley
+    title: Developer
+    date_start: 2016
+    date_end: Present
+    logo:
+      og: wc-bradley.png
+      2x: wc-bradley@2x.png
+      3x: wc-bradley@3x.png
+    description: |+
+      I currently specialize in Magento 1.x and 2.x full-stack development, including Char-Broil, Quantum Fishing, Char-Broil Europe and Badlands. Our company's sites range in complexity from single Magento instances with basic WordPress integration, to multilingual sites with GDPR compliance across multiple countries, to sites across multiple domains with shared shopping carts.
+
+      Our team is also involved in migrations from Magento 1 to Magento 2. Like the M1 sites themselves, these migrations also range in complexity&mdash;some are static sites that will be converted to M2 installs, while others are "true" "migrations" using the M1 to M2 migration tools and requiring heavy custom module rewrites.
+
+      In addition to eCommerce, WC Bradley manages several sites using ExpressionEngine 4. I've built out custom modules, plugins and fieldtypes to support the import of products into the platform, and OAuth 2.0 integration with Instagram and YouTube, among other things.
+
+      We manage our workload by utilizing agile software development practices.
+  -
+    name: silentpost
+    title: Developer
+    date_start: 2012
+    date_end: 2018
+    logo:
+      og: silentpost.png
+      2x: silentpost@2x.png
+      3x: silentpost@3x.png
+    description: |+
+      I founded silentpost in 2012 (the lowercase 's' is intentional) to gain more development and project management experience outside my daily job. I designed and developed heavily customized WordPress sites featuring custom post types, plugins and themes for small businesses in the Columbus, GA area.
+
+      In addition to design and development, I met with clients to manage project expectations, handled billing, invoicing and developed sales leads for Chef Lee's Peking Restaurant, the Unitarian Universalist Church of Columbus, GA and schools within Columbus State University.
+  -
+    name: Communicorp
+    title: Digital Print Analyst
+    date_start: 2009
+    date_end: 2015
+    logo:
+      og: communicorp.png
+      2x: communicorp@2x.png
+      3x: communicorp@3x.png
+    description: |+
+      I designed, developed, project managed and curated the company website utilizing WordPress as a CMS. This included managing servers, databases, designing and developing a mobile-first responsive site with HTML5-compliant code, and managing stakeholder expectations throughout the process.
+
+      I managed and curated content marketing across the company's Twitter, Facebook, LinkedIn and company website.
+
+      I created custom responsive emails for use in multi-touch campaigns for various customers including Aflac, Inc., demonstrating a thorough knowledge of modern email best practices.
+education:
+  -
+    name: Auburn University
+    title: BFA in Graphic Design
+    date_start: 2004
+    date_end: 2008
+    logo:
+      og: au.png
+      2x: au@2x.png
+      3x: au@3x.png
+    description: |+
+      The design program at Auburn had a heavy emphasis on typography and technical print process. My personal interest was front-end web development and typography.

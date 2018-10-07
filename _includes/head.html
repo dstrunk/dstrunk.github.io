@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="home" href="{{ site.url }}">
+    <link rel="alternate" type="application/atom+xml" title="danielstrunk.me Atom Feed" href="{{ "/feed.xml" | absolute_url }}">
+	<link rel="alternate" type="application/json" title="danielstrunk.me JSON Feed" href="{{ "/feed.json" | absolute_url  }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta property="og:site_name" content="danielstrunk.me">
+    <meta property="og:title" content="danielstrunk.me">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600|Source+Serif+Pro:700" rel="stylesheet">
+
+    <script src="/assets/js/manifest.js"></script>
+    <script src="/assets/js/vendor.js"></script>
+    <script src="/assets/js/app.js" defer></script>
+</head>
+<body dir="ltr" class="border-t-2 border-indigo bg-grey-lightest">
+
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WN4SKL"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WN4SKL');</script>
+  <!-- End Google Tag Manager -->
+

@@ -1,0 +1,50 @@
+---
+---
+
+{% if site.posts.size > 0 %}
+    <div class="w-full md:w-4/6">
+        <h1 class="mb-8">Posts</h1>
+
+        {% for post in paginator.posts %}
+            <a href="{{ post.url }}" class="no-underline text-indigo">
+                <h2 class="text-xl mb-0">{{ post.title }}</h2>
+            </a>
+
+            <time datetime="{{ post.date }}"
+                class="category">
+                {{ post.date | date: "%b %d, %Y" }}
+            </time>
+
+            <p class="mb-8">
+                {{ post.content | strip_html | truncatewords: 15 }}
+            </p>
+        {% endfor %}
+    </div>
+{% else %}
+    <p>Coming soon (I promise!)</p>
+{% endif %}
+
+{% if paginator.total_pages > 1 %}
+    <div class="row mt-8">
+        <div class="flex justify-between">
+            <div class="">
+                {% if paginator.next_page %}
+                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+                        class="no-underline text-indigo">
+                        &larr; Older posts
+                    </a>
+                {% endif %}
+            </div>
+            <div class="">
+                {% if paginator.previous_page %}
+                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+                        class="no-underline text-indigo">
+                        Newer posts &rarr;
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+{% endif %}
+

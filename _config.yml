@@ -5,25 +5,63 @@ kramdown:
   hard_wrap: false
 
 # Site settings
-permalink: /til/:year/:title/
-paginate: 5
-paginate_path: /til/page/:num/
-exclude: ["node_modules", "vendor"]
-sass:
-  style: compressed
+permalink: /blog/:year/:title/
+paginate_path: /blog/page/:num/
+paginate: 10
+excerpt_separator: "<!-- more -->"
+include:
+  - _pages
+  - _projects
+exclude:
+  - node_modules
+  - webpack.mix.js
+  - tailwind.js
+  - yarn.lock
+  - tags
+  - LICENSE
 
 # Site info
 url: http://danielstrunk.me
 title: Daniel Strunk
+name: Daniel Strunk's blog
+description: Laravel, VueJS, Vim and other miscellaneous tech ramblings
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
 
 # Collections
 collections:
   projects:
     output: true
     permalink: /projects/:title/
+  archive:
+    output: true
+    permalink: /archive/:year/:month/:day/:title/
+  typography:
+    output: false
+  components:
+    output: false
 
-# gems
-gems:
+# defaults
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "posts"
+  -
+    scope:
+      type: "projects"
+    values:
+      layout: "projects"
+  -
+    scope:
+      type: "pages"
+    values:
+      layout: "default"
+
+# plugins
+plugins:
   - jekyll-github-metadata
   - jekyll-sitemap
   - jekyll-paginate

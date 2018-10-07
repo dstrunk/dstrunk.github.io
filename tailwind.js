@@ -64,6 +64,14 @@ let colors = {
   'red-lighter': '#f9acaa',
   'red-lightest': '#fcebea',
 
+  'indigo-darkest': '#191e38',
+  'indigo-darker': '#2f365f',
+  'indigo-dark': '#5661b3',
+  'indigo': '#6574cd',
+  'indigo-light': '#7886d7',
+  'indigo-lighter': '#b2b7ff',
+  'indigo-lightest': '#e6e8ff',
+
   'orange-darkest': '#462a16',
   'orange-darker': '#613b1f',
   'orange-dark': '#de751f',
@@ -169,8 +177,7 @@ module.exports = {
   screens: {
     'sm': '576px',
     'md': '768px',
-    'lg': '992px',
-    'xl': '1200px',
+    'lg': '992px'
   },
 
 
@@ -194,6 +201,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Source Sans Pro',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -208,6 +216,7 @@ module.exports = {
       'sans-serif',
     ],
     'serif': [
+      'Source Serif Pro',
       'Constantia',
       'Lucida Bright',
       'Lucidabright',
@@ -649,6 +658,10 @@ module.exports = {
     '4': '1rem',
     '6': '1.5rem',
     '8': '2rem',
+    '12': '3rem',
+    '16': '4rem',
+    '24': '6rem',
+    '32': '8rem',
   },
 
 
@@ -677,6 +690,10 @@ module.exports = {
     '4': '1rem',
     '6': '1.5rem',
     '8': '2rem',
+    '12': '3rem',
+    '16': '4rem',
+    '24': '6rem',
+    '32': '8rem',
   },
 
 
@@ -704,6 +721,10 @@ module.exports = {
     '4': '1rem',
     '6': '1.5rem',
     '8': '2rem',
+    '12': '3rem',
+    '16': '4rem',
+    '24': '6rem',
+    '32': '8rem',
   },
 
 
@@ -861,7 +882,7 @@ module.exports = {
     minHeight: ['responsive'],
     minWidth: ['responsive'],
     negativeMargin: ['responsive'],
-    opacity: ['responsive'],
+    opacity: ['responsive', 'hover', 'focus'],
     overflow: ['responsive'],
     padding: ['responsive'],
     pointerEvents: ['responsive'],
