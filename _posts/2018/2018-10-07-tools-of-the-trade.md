@@ -1,7 +1,8 @@
 ---
 title: My Development Tools of the Trade
+tags: [workflow]
+category: general
 description: Multi-language development tools I use to focus on Getting Things Done
-categories: workflow
 ---
 
 ## Hello, world!

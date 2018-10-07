@@ -5,7 +5,8 @@ layout: null
 <rss version="2.0"
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
 	<channel>
 		<title>{{ site.name | xml_escape }}</title>
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
@@ -29,6 +30,15 @@ layout: null
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+
+                {% assign cat = post.category | downcase %}
+                {% assign category = site.data.categories[cat] %}
+                {% if post.image %}
+                    {% assign image = post.image %}
+                {% else %}
+                    {% assign image = category.image %}
+                {% endif %}
+                <content:encoded><![CDATA[<img src="{{ image | prepend: site.url }}" />]]></content:encoded>
 			</item>
 		{% endfor %}
 	</channel>
