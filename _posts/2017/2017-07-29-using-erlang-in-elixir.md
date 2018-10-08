@@ -12,12 +12,11 @@ We can see this functionality demonstrated in translating an Erlang library func
 ```erlang
 client() ->
     SomeHostInNet = "localhost", % to make it runnable on one machine
-    {ok, Sock} = gen_tcp:connect(SomeHostInNet, 5678, 
+    {ok, Sock} = gen_tcp:connect(SomeHostInNet, 5678,
                                  [binary, {packet, 0}]),
     ok = gen_tcp:send(Sock, "Some Data"),
     ok = gen_tcp:close(Sock).
 ```
-
 
 Probably most important to note is the syntax for calling an Erlang library in Elixir: `:gen_tcp` (note the colon). This lets Elixir's compiler know that a call to a native Erlang libary will be performed. Now, in Erlang:
 

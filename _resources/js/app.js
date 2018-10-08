@@ -16,11 +16,12 @@ turbolinks.start();
  * Create a fresh Vue application instance and attach it to the page.
  * Then, begin adding components to the application.
  */
-Vue.component('newsletter', require('./components/Newsletter.vue'));
-Vue.component('celebration', require('./components/Celebration.vue'));
-
 document.addEventListener('turbolinks:load', function() {
   const app = new Vue({
     el: '#app',
   });
+
+  if (typeof Prism !== undefined) {
+    Prism.highlightAll();
+  }
 });
