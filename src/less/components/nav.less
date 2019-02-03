@@ -1,0 +1,34 @@
+.nav {
+  &__link {
+    @apply no-underline;
+    @apply text-grey-600;
+    @apply text-xs;
+    @apply uppercase;
+    @apply tracking-xl;
+    @apply font-semibold;
+    @apply mr-6;
+    @apply p-3;
+
+    &:first-child {
+      @apply pl-0;
+    }
+
+    &:last-child {
+      @apply pr-0;
+    }
+
+    &--active {
+      @apply text-blue-400;
+    }
+  }
+
+  &:hover &__link {
+    @apply text-grey-600;
+    @apply opacity-50;
+
+    &:hover {
+      @apply text-blue-400;
+      @apply opacity-100;
+    }
+  }
+}

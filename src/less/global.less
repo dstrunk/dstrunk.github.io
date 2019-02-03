@@ -1,0 +1,40 @@
+* {
+  transition: all 250ms ease;
+}
+
+.body {
+  h1, h2, h3, h4, h5, h6 {
+    @apply mt-8;
+    @apply mb-2;
+  }
+
+  datetime {
+    @apply uppercase;
+    @apply font-bold;
+    @apply tracking-wide;
+    @apply text-sm;
+    @apply text-grey-800;
+    @apply mb-4;
+    @apply block;
+  }
+
+  p {
+    @apply mb-6;
+    @apply leading-normal;
+  }
+
+  a {
+    .link;
+  }
+
+  ol,
+  ul,
+  dl {
+    @apply list-reset;
+    @apply leading-normal;
+
+    li {
+      @apply mb-4;
+    }
+  }
+}

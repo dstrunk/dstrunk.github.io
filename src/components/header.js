@@ -2,33 +2,39 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
+const isPartiallyActive = ({ isPartiallyCurrent }) => {
+  return isPartiallyCurrent
+    ? { className: 'nav__link nav__link--active' }
+    : { className: 'nav__link' }
+}
+
+const PartialNavLink = props => (
+  <Link getProps={isPartiallyActive} {...props}>
+    {props.children}
+  </Link>
+)
+
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+  <header className="mb-8">
+      <h1 className="text-xl mb-4">
+        <Link to="/" className="no-underline text-grey-900">{siteTitle}</Link>
       </h1>
-    </div>
-  </div>
+
+      <nav class="nav">
+        <Link to="/projects/"
+          className="nav__link"
+          activeClassName="nav__link--active">Projects</Link>
+        <PartialNavLink to="/journal/"
+          className="nav__link"
+          activeClassName="nav__link--active">Journal</PartialNavLink>
+        <PartialNavLink to="/til/"
+          className="nav__link"
+          activeClassName="nav__link--active">TIL</PartialNavLink>
+        <PartialNavLink to="/blog/"
+          className="nav__link"
+          activeClassName="nav__link--active">Archive</PartialNavLink>
+      </nav>
+  </header>
 )
 
 Header.propTypes = {
