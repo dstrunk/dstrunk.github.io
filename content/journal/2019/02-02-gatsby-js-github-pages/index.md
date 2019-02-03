@@ -77,6 +77,10 @@ I did get tripped up a couple of times with having to explicitly ask for the cor
 
 I expect I'll have more opinions on this once I get into pagination. Concepts like edges, cursors, and fragments will start to make more sense in that context. Also, mutations are an unknown entity for me at the moment. So far I have only queried GraphQL data, never manipulated it.
 
+## Takeaways
+
+You may have gathered this from the above, but I'm a fan of magic--syntactic sugar that handles my implementation details in the background. Some people enjoy the minutiae of what's going on, but I'd rather spend my time planning architecture and solving problems. Gatsby hits all of those dopamine receptors for me--it Just Works when you need it to, but is open to extensibility. React does that less so (over other libraries such as Ember or Vue) but is still miles above manually doing it myself, so I'm ultimately alright with it. Honestly I never had many issues with REST over GraphQL, but I dig the asked-and-answered future of GraphQL.
+
 ## Next week
 
 I'm either going with …

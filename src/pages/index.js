@@ -16,8 +16,8 @@ const IndexPage = () => (
 
     <p>
       I am currently expanding my knowledge of programming concepts by sharing{' '}
-      what I'm working on via <Link to="/screencasts">screencasts</Link>, weekly{' '}
-      <Link to="/journal">journal updates</Link>, and ad-hoc{' '}
+      what I'm working on via weekly{' '}
+      <Link to="/journal">journal updates</Link> and ad-hoc{' '}
       <Link to="/til">Today I Learned</Link> posts.
     </p>
   </Layout>
