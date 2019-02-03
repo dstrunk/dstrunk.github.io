@@ -1,4 +1,6 @@
 .nav {
+  @apply w-full;
+
   &__link {
     @apply no-underline;
     @apply text-grey-600;
@@ -6,8 +8,8 @@
     @apply uppercase;
     @apply tracking-xl;
     @apply font-semibold;
-    @apply mr-6;
-    @apply p-3;
+    @apply py-3;
+    @apply block;
 
     &:first-child {
       @apply pl-0;
@@ -29,6 +31,19 @@
     &:hover {
       @apply text-blue-400;
       @apply opacity-100;
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .nav {
+    @apply w-1/2;
+
+    &__link {
+      @apply inline-block;
+      @apply px-3;
+      @apply mr-6;
     }
   }
 }
