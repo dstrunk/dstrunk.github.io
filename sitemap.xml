@@ -141,8 +141,8 @@
 <url> <loc>https://danielstrunk.me/blog/2014/automating-csv-parsing-with-ruby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://danielstrunk.me/blog/2014/setting-up-multiple-server-blocks-in-nginx</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://danielstrunk.me/blog/2014/hub-for-a-better-github-experience</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://danielstrunk.me/journal/2019/gatsby-js-github-pages</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://danielstrunk.me/til/2019/easier-data-binding-in-react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://danielstrunk.me/journal/2019/gatsby-js-github-pages</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://danielstrunk.me/blog/2017/auto-deploy-with-git</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://danielstrunk.me/blog/2017/search-and-replace-across-files-in-vim</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://danielstrunk.me/blog/2016/asdf-version-manager</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
